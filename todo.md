@@ -1,3 +1,10 @@
+
+кастование классов разобраться
+Полиморфизм и виртуальные функции - дополнить код 1
+перенести статью про потоки
+перенести про числа с плавающей точкой
+
+
 разное
 - https://cppinsights.io/
 - http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rr-make_shared
