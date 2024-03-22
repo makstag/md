@@ -1,4 +1,65 @@
 
+https://stackoverflow.com/questions/42011458/static-cast-from-base-class-pointer-to-derived-class-pointer-is-invalid
+
+```C++
+#include <iostream>
+
+struct Base {
+    int a = 0;
+    Base(){
+        std::cout << "default" << std::endl;
+    }
+    Base(const Base&){
+        std::cout << "copy" << std::endl;
+    }
+    virtual void foo(){};
+};
+
+struct Derived: public Base {
+    int a = 1;
+    int b = 2;
+    Derived() = default;
+    void foo() override {};
+};
+
+void f(Base b){
+    std::cout << b.a << std::endl;  // 0
+}
+
+void f_ptr(Base* b){
+    std::cout << b->a << std::endl; // 0
+}
+
+void f_ref(Base& b){
+    std::cout << b.a << std::endl;  // 0
+}
+
+int main() {
+    Derived d; // Выведется "default"
+    Base& b = d;
+
+//  Derived  new_d1 = b;
+//  Derived& new_d2 = b;
+    Derived& new_d3 =  static_cast<Derived&>(b);
+    Derived& new_d4 = dynamic_cast<Derived&>(b);
+
+    d.a = 77;
+
+    std::cout << new_d3.a << std::endl;
+    std::cout << new_d3.a << std::endl;
+
+    Base bb;
+    Derived& new_d5 = static_cast<Derived&>(bb);
+    std::cout << new_d5.b << std::endl;
+
+    Derived& new_d6 = dynamic_cast<Derived&>(bb);
+
+    return 0;
+}
+```
+
+
+
 кастование классов разобраться
 Полиморфизм и виртуальные функции - дополнить код 1
 перенести статью про потоки
