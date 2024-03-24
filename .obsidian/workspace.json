@@ -1,0 +1,203 @@
+{
+  "main": {
+    "id": "a226688b6ff9ffd0",
+    "type": "split",
+    "children": [
+      {
+        "id": "d7ec5799a0ab65db",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f00ccf3861da1312",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "С++/3.2 Наследование.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "89c1ed9d79116334",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Холсты/Utils.canvas",
+                "viewState": {
+                  "x": -193.46214184029924,
+                  "y": -278.3067747647558,
+                  "zoom": -1.4050953287093773
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2fd7b82db1e064ec",
+    "type": "split",
+    "children": [
+      {
+        "id": "8a32302115c8fef2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f2328d843959e7db",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c343648150d16f0c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f2ed4406826cda2f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3c24f02499b103ac",
+    "type": "split",
+    "children": [
+      {
+        "id": "bfa4c4436850b7b7",
+        "type": "tabs",
+        "dimension": 28.02547770700637,
+        "children": [
+          {
+            "id": "e262573d593cc502",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "С++/3.2 Наследование.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b33d09a385b0c7fa",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "С++/3.2 Наследование.md"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "62b5ab272a427710",
+        "type": "tabs",
+        "dimension": 30.64401981599434,
+        "children": [
+          {
+            "id": "ea92d6f42cf9d450",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "3991a95fe4e5bb96",
+        "type": "tabs",
+        "dimension": 41.33050247699929,
+        "children": [
+          {
+            "id": "96796e4d206b394f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "С++/3.2 Наследование.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 365.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
+      "graph:Граф": false
+    }
+  },
+  "active": "f00ccf3861da1312",
+  "lastOpenFiles": [
+    "Холсты/Utils.canvas",
+    "Холсты/Базовые принципы запуска пользовательских задач в операционных системах.canvas",
+    "todo.md",
+    "README.md",
+    "Без названия 1.canvas",
+    "С++/3.2 Наследование.md",
+    "С++/0 Переменные, Операторы, Квалификаторы.md",
+    "С++/4 Кастование.md",
+    "С++/3.3 Приведение типов при наследовании.md",
+    "С++/1 Указатели, Ссылки.md",
+    "С++/2 Функции, Структуры данных.md",
+    "Исходники/3.2.1.png",
+    "Исходники/0_operators_priority.png",
+    "С++/3.1 Методы , Перегрузка операторов.md",
+    "хххххх.md.md",
+    "С++/3 Классы и Структуры.md",
+    "С++/3.6 RTTI и dynamic_cast.md",
+    "С++/3.5 Полиморфизм и виртуальные функции.md",
+    "С++/3.4 Множественное наследование.md",
+    "Холсты",
+    "Исходники",
+    "С++"
+  ]
+}
