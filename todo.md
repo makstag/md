@@ -26,3 +26,5 @@
 6) адресная арифметика https://pvs-studio.ru/ru/blog/terms/0005/ https://pvs-studio.ru/ru/blog/lessons/0013/ https://pvs-studio.ru/ru/blog/posts/cpp/0576/ https://www.open-std.org/JTC1/SC22/WG14/www/docs/n2012.htm
 
 7) спинлок https://rigtorp.se/spinlock/
+
+8)  [Вывод адреса char* в cout](https://stackoverflow.com/questions/17813423/cout-with-char-argument-prints-string-not-pointer-value)

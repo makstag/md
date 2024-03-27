@@ -13,26 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "С++/Разбираемся с кастами.md",
+                "file": "buffer.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "aa6850d94a9e46b0",
+            "id": "5ce90c8535b33613",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "С++/launch.json.md",
+                "file": "С++/Разбираемся с кастами.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "С++/launch.json.md",
+                "file": "buffer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -112,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "С++/launch.json.md"
+                "file": "buffer.md"
               }
             }
           }
@@ -129,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "С++/launch.json.md",
+                "file": "buffer.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,34 +173,41 @@
       "graph:Граф": false
     }
   },
-  "active": "c556e42a9ab6e631",
+  "active": "89c1ed9d79116334",
   "lastOpenFiles": [
     "С++/Разбираемся с кастами.md",
-    "С++/launch.json.md",
-    "vscode",
-    "С++/4 Кастование.md",
+    "С++/00 Введение.md",
+    "vscode/launch.json.md",
+    "git/submodule.md",
+    "gdb valgrind/Отладка.md",
+    "git/Команды.md",
+    "git",
     "С++/3.7 Vtables.md",
-    "Холсты/Базовые принципы запуска пользовательских задач в операционных системах.canvas",
-    "Untitled Diagram.svg",
-    "Excalidraw/Drawing 2024-03-24 13.27.11.excalidraw.md",
-    "С++/1 Указатели, Ссылки.md",
-    "Без названия.canvas",
-    "2024-03-24.md",
-    "Excalidraw",
+    "gdb valgrind",
+    "С++/4 Кастование.md",
+    "buffer.md",
     "С++/3.6 RTTI и dynamic_cast.md",
-    "Холсты/Utils.canvas",
-    "С++/3.3 Приведение типов при наследовании.md",
-    "С++/3.2 Наследование.md",
-    "С++/3.4 Множественное наследование.md",
     "С++/3.5 Полиморфизм и виртуальные функции.md",
     "todo.md",
     "README.md",
+    "Холсты/Базовые принципы запуска пользовательских задач в операционных системах.canvas",
+    "Холсты/Utils.canvas",
+    "С++/1 Указатели, Ссылки.md",
+    "С++/0 Переменные, Операторы, Квалификаторы.md",
+    "С++/3.4 Множественное наследование.md",
+    "С++/3.2 Наследование.md",
+    "С++/3.3 Приведение типов при наследовании.md",
+    "vscode",
+    "Untitled Diagram.svg",
+    "Excalidraw/Drawing 2024-03-24 13.27.11.excalidraw.md",
+    "Без названия.canvas",
+    "2024-03-24.md",
+    "Excalidraw",
     "С++/3 Классы и Структуры.md",
     "С++/().md",
     "С++/3.1 Методы , Перегрузка операторов.md",
     "00 Исходники/3.2.1.png",
     "С++/2 Функции, Структуры данных.md",
-    "С++/0 Переменные, Операторы, Квалификаторы.md",
     "Без названия 1.canvas",
     "00 Исходники/0_operators_priority.png",
     "хххххх.md.md",
