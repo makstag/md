@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Сторонее/coordanate-transforms.md",
+                "file": "С++/Разбираемся с кастами.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,7 +38,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "todo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Сторонее/coordanate-transforms.md",
+                "file": "С++/Разбираемся с кастами.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -99,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Сторонее/coordanate-transforms.md"
+                "file": "С++/Разбираемся с кастами.md"
               }
             }
           }
@@ -116,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Сторонее/coordanate-transforms.md",
+                "file": "С++/Разбираемся с кастами.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,17 +162,20 @@
   },
   "active": "5ce90c8535b33613",
   "lastOpenFiles": [
-    "Сторонее/pvs.md",
-    "Сторонее/code-quality.md",
-    "С++/3.6 RTTI и dynamic_cast.md",
-    "С++/4 Кастование.md",
-    "MFTI_lectures.md",
-    "С++/3.5 Полиморфизм и виртуальные функции.md",
-    "Холсты/Полезные онлайн отладчики.canvas",
-    "С++/Разбираемся с кастами.md",
     "buffer.md",
     "С++/3.7 Vtables.md",
+    "С++/3.6 RTTI и dynamic_cast.md",
+    "С++/3.5 Полиморфизм и виртуальные функции.md",
+    "С++/Разбираемся с кастами.md",
+    "С++/4 Кастование.md",
     "С++/3.4 Множественное наследование.md",
+    "Сторонее/coordanate-transforms.md",
+    "00 Исходники/tf.png",
+    "todo.md",
+    "MFTI_lectures.md",
+    "Сторонее/pvs.md",
+    "Сторонее/code-quality.md",
+    "Холсты/Полезные онлайн отладчики.canvas",
     "С++/3.3 Приведение типов при наследовании.md",
     "С++/3.2 Наследование.md",
     "С++/3.1 Методы , Перегрузка операторов.md",
@@ -182,7 +184,6 @@
     "С++/1 Указатели, Ссылки.md",
     "С++/0 Переменные, Операторы, Квалификаторы.md",
     "С++/00 Введение.md",
-    "todo.md",
     "Холсты/Полезные gitlab проекты.canvas",
     "С++/UB/Примеры.md",
     "С++/UB",
@@ -193,10 +194,8 @@
     "git/Команды.md",
     "git",
     "gdb valgrind",
-    "README.md",
     "vscode",
     "Untitled Diagram.svg",
-    "Excalidraw/Drawing 2024-03-24 13.27.11.excalidraw.md",
     "Excalidraw",
     "00 Исходники/3.2.1.png",
     "Без названия 1.canvas",
