@@ -1,6 +1,5 @@
 {
 	"nodes":[
-		{"id":"02d40ce801b09ac2","x":-195,"y":-350,"width":250,"height":60,"type":"text","text":"#todo перенести с листка\n"},
 		{"id":"631ce1cb81d5a5ad","type":"link","url":"https://godbolt.org/","x":-40,"y":-1120,"width":1200,"height":700},
 		{"id":"f86fd58531ba0c5c","type":"link","url":"https://www.tutorialspoint.com/compile_cpp_online.php","x":-1300,"y":-1160,"width":1120,"height":780},
 		{"id":"9dc2ca2ed881761e","type":"link","url":"https://cppinsights.io/","x":-580,"y":-200,"width":1180,"height":720}
