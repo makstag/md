@@ -11,12 +11,8 @@
             "id": "5ce90c8535b33613",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "С++/Разбираемся с кастами.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -38,7 +34,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "todo",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,11 +61,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 417.5
+    "width": 200
   },
   "right": {
     "id": "3c24f02499b103ac",
@@ -86,7 +83,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "С++/Разбираемся с кастами.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -98,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "С++/Разбираемся с кастами.md"
+                "file": "Excalidraw/Drawing 2024-03-28 18.03.44.excalidraw.md"
               }
             }
           }
@@ -115,7 +111,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "С++/Разбираемся с кастами.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +143,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,17 +153,24 @@
       "daily-notes:Сегодняшняя заметка": false,
       "templates:Вставить шаблон": false,
       "command-palette:Открыть палитру команд": false,
-      "graph:Граф": false
+      "graph:Граф": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5ce90c8535b33613",
+  "active": "c556e42a9ab6e631",
   "lastOpenFiles": [
-    "buffer.md",
+    "Excalidraw/Drawing 2024-03-28 18.03.16.excalidraw.md",
+    "work/glob_cfg.canvas",
+    "work",
+    "Excalidraw/Drawing 2024-03-28 18.03.44.excalidraw.md",
+    "Холсты/Полезные онлайн отладчики.canvas",
+    "Excalidraw",
     "С++/3.7 Vtables.md",
+    "С++/4 Кастование.md",
+    "С++/Разбираемся с кастами.md",
+    "buffer.md",
     "С++/3.6 RTTI и dynamic_cast.md",
     "С++/3.5 Полиморфизм и виртуальные функции.md",
-    "С++/Разбираемся с кастами.md",
-    "С++/4 Кастование.md",
     "С++/3.4 Множественное наследование.md",
     "Сторонее/coordanate-transforms.md",
     "00 Исходники/tf.png",
@@ -175,7 +178,6 @@
     "MFTI_lectures.md",
     "Сторонее/pvs.md",
     "Сторонее/code-quality.md",
-    "Холсты/Полезные онлайн отладчики.canvas",
     "С++/3.3 Приведение типов при наследовании.md",
     "С++/3.2 Наследование.md",
     "С++/3.1 Методы , Перегрузка операторов.md",
@@ -190,13 +192,10 @@
     "Холсты/cyberforum Базовые принципы запуска пользовательских задач в операционных системах.canvas",
     "vscode/launch.json.md",
     "git/submodule.md",
-    "gdb valgrind/Отладка.md",
-    "git/Команды.md",
     "git",
     "gdb valgrind",
     "vscode",
     "Untitled Diagram.svg",
-    "Excalidraw",
     "00 Исходники/3.2.1.png",
     "Без названия 1.canvas",
     "00 Исходники/0_operators_priority.png",
