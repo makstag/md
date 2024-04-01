@@ -4,15 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "d7ec5799a0ab65db",
+        "id": "bcf19563a5311c4d",
         "type": "tabs",
         "children": [
           {
-            "id": "5ce90c8535b33613",
+            "id": "0a8737b0cadedcc3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "canvas",
+              "state": {
+                "file": "Холсты/C++/vtable.canvas",
+                "viewState": {
+                  "x": 630,
+                  "y": 460,
+                  "zoom": -1.0551685909526287
+                }
+              }
             }
           }
         ]
@@ -66,7 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 388.5
   },
   "right": {
     "id": "3c24f02499b103ac",
@@ -83,6 +90,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Холсты/C++/vtable.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -94,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-03-28 18.03.44.excalidraw.md"
+                "file": "Холсты/C++/vtable.canvas"
               }
             }
           }
@@ -111,6 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Холсты/C++/vtable.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,50 +166,60 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c556e42a9ab6e631",
+  "active": "0a8737b0cadedcc3",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2024-03-28 18.03.16.excalidraw.md",
-    "work/glob_cfg.canvas",
-    "work",
-    "Excalidraw/Drawing 2024-03-28 18.03.44.excalidraw.md",
+    "gdb valgrind/Отладка.md",
+    "Холсты/C++/vtable.canvas",
+    "00 Исходники/Base1.png",
+    "00 Исходники/vtable/NV_twobases.png",
+    "00 Исходники/vtable/NV_onebase_console.png",
+    "00 Исходники/vtable/NV_onebase.png",
+    "00 Исходники/vtable/NV_onabase_console.png",
+    "00 Исходники/vtable/Base2_console.png",
+    "00 Исходники/vtable/Base2.png",
+    "00 Исходники/vtable/Base1_console 1.png",
+    "00 Исходники/vtable/Base1_console.png",
+    "00 Исходники/vtable/Base1.png",
+    "00 Исходники/vtable",
+    "Холсты/cyberforum Базовые принципы запуска пользовательских задач в операционных системах.canvas",
+    "[.md",
+    "Холсты/C++",
+    "С++/3.5 Полиморфизм и виртуальные функции.md",
     "Холсты/Полезные онлайн отладчики.canvas",
-    "Excalidraw",
+    "Холсты/Полезные gitlab проекты.canvas",
+    "work/glob_cfg 1.canvas",
+    "work/glob_cfg.canvas",
     "С++/3.7 Vtables.md",
     "С++/4 Кастование.md",
     "С++/Разбираемся с кастами.md",
+    "С++/3.3 Приведение типов при наследовании.md",
+    "С++/2 Функции, Структуры данных.md",
+    "С++/3.4 Множественное наследование.md",
+    "С++/3.2 Наследование.md",
+    "С++/3 Классы и Структуры.md",
+    "С++/1 Указатели, Ссылки.md",
+    "Excalidraw/Drawing 2024-03-28 18.03.44.excalidraw.md",
+    "Excalidraw/Drawing 2024-03-28 18.03.16.excalidraw.md",
+    "work",
+    "Excalidraw",
     "buffer.md",
     "С++/3.6 RTTI и dynamic_cast.md",
-    "С++/3.5 Полиморфизм и виртуальные функции.md",
-    "С++/3.4 Множественное наследование.md",
     "Сторонее/coordanate-transforms.md",
-    "00 Исходники/tf.png",
     "todo.md",
     "MFTI_lectures.md",
     "Сторонее/pvs.md",
     "Сторонее/code-quality.md",
-    "С++/3.3 Приведение типов при наследовании.md",
-    "С++/3.2 Наследование.md",
     "С++/3.1 Методы , Перегрузка операторов.md",
-    "С++/3 Классы и Структуры.md",
-    "С++/2 Функции, Структуры данных.md",
-    "С++/1 Указатели, Ссылки.md",
     "С++/0 Переменные, Операторы, Квалификаторы.md",
     "С++/00 Введение.md",
-    "Холсты/Полезные gitlab проекты.canvas",
     "С++/UB/Примеры.md",
     "С++/UB",
-    "Холсты/cyberforum Базовые принципы запуска пользовательских задач в операционных системах.canvas",
     "vscode/launch.json.md",
-    "git/submodule.md",
     "git",
     "gdb valgrind",
     "vscode",
-    "Untitled Diagram.svg",
-    "00 Исходники/3.2.1.png",
     "Без названия 1.canvas",
-    "00 Исходники/0_operators_priority.png",
     "Холсты",
-    "00 Исходники",
-    "С++"
+    "00 Исходники"
   ]
 }
