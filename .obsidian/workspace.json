@@ -4,30 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "d7ec5799a0ab65db",
+        "id": "eb25a59541657eba",
         "type": "tabs",
         "children": [
           {
-            "id": "5ce90c8535b33613",
+            "id": "e2ae04d00e81691d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "С++/4 Кастование.md",
+                "file": "С++/Основы/3.2 Наследование.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "de05f452ff76a24a",
+            "id": "094d9b8d59d08cf2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "С++/3.8 Шаблоны.md",
-                "mode": "source",
-                "source": false
+                "file": "Холсты/Подготовка.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               }
             }
           }
@@ -83,7 +86,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "3c24f02499b103ac",
@@ -100,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "С++/3.8 Шаблоны.md",
+                "file": "Холсты/Подготовка.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -112,7 +116,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "С++/3.8 Шаблоны.md"
+                "file": "Холсты/Подготовка.canvas"
               }
             }
           }
@@ -129,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "С++/3.8 Шаблоны.md",
+                "file": "Холсты/Подготовка.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,8 +180,33 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "de05f452ff76a24a",
+  "active": "c556e42a9ab6e631",
   "lastOpenFiles": [
+    "Холсты/cyberforum Базовые принципы запуска пользовательских задач в операционных системах.canvas",
+    "Холсты/Подготовка.canvas",
+    "MFTI_lectures.md",
+    "С++/Структуры данных/Vector.md",
+    "С++/Основы/4 Кастование.md",
+    "С++/Основы/Разбираемся с кастами.md",
+    "С++/Основы/3.2 Наследование.md",
+    "С++/Структуры данных",
+    "С++/Основы/3.1 Методы , Перегрузка операторов.md",
+    "С++/Основы/3 Классы и Структуры.md",
+    "С++/Основы/2 Функции, Структуры данных.md",
+    "С++/Основы/1 Указатели, Ссылки.md",
+    "С++/Основы/0 Переменные, Операторы, Квалификаторы.md",
+    "С++/Основы/00 Введение.md",
+    "Сторонее/pvs.md",
+    "С++/Основы/3.8 Шаблоны.md",
+    "С++/Основы/3.7 Vtables.md",
+    "С++/Основы/3.6 RTTI и dynamic_cast.md",
+    "С++/Основы/3.5 Полиморфизм и виртуальные функции.md",
+    "С++/Основы/3.4 Множественное наследование.md",
+    "С++/Основы/3.3 Приведение типов при наследовании.md",
+    "С++/Основы/UB/Примеры.md",
+    "С++/Основы/UB",
+    "С++/Основы",
+    "С++/3.8 Шаблоны.md",
     "Холсты/C++/vtable.canvas",
     "Холсты/C++",
     "work/glob_cfg 1.canvas",
@@ -193,42 +222,18 @@
     "00 Исходники/vtable",
     "С++/3 Классы и Структуры.md",
     "С++/3.1 Методы , Перегрузка операторов.md",
-    "С++/3.8 Шаблоны.md",
     "С++/3.7 Vtables.md",
     "С++/3.6 RTTI и dynamic_cast.md",
     "С++/3.4 Множественное наследование.md",
-    "С++/3.5 Полиморфизм и виртуальные функции.md",
-    "С++/2 Функции, Структуры данных.md",
-    "С++/4 Кастование.md",
-    "Untitled",
-    "С++/Разбираемся с кастами.md",
-    "С++/3.3 Приведение типов при наследовании.md",
-    "С++/3.2 Наследование.md",
-    "buffer.md",
-    "Excalidraw/Drawing 2024-03-28 18.03.16.excalidraw.md",
     "work/glob_cfg.canvas",
     "work",
-    "Excalidraw/Drawing 2024-03-28 18.03.44.excalidraw.md",
     "Холсты/Полезные онлайн отладчики.canvas",
     "Excalidraw",
-    "Сторонее/coordanate-transforms.md",
     "00 Исходники/tf.png",
-    "todo.md",
-    "MFTI_lectures.md",
-    "Сторонее/pvs.md",
-    "Сторонее/code-quality.md",
-    "С++/1 Указатели, Ссылки.md",
-    "С++/0 Переменные, Операторы, Квалификаторы.md",
-    "С++/00 Введение.md",
     "Холсты/Полезные gitlab проекты.canvas",
-    "С++/UB/Примеры.md",
     "С++/UB",
-    "Холсты/cyberforum Базовые принципы запуска пользовательских задач в операционных системах.canvas",
-    "vscode/launch.json.md",
     "git",
     "gdb valgrind",
-    "vscode",
-    "Без названия 1.canvas",
-    "Холсты"
+    "Без названия 1.canvas"
   ]
 }

@@ -48,4 +48,3 @@
 `plog-converter -a` `"GA:1,2,3;OP:1,2,3;CS:1,2,3;MISRA:1,2,3;AUTOSAR:1,2,3;OWASP:1,2,3"` `-t fullhtml -o src/PVS-Studio_lol/ -d V009 src/PVS-Studio/lol/PVS-Studio.log`
 
 Отчет будет размещен в src/PVS-Studio/lol/fullhtml. Для его просмотра достаточно открыть в браузере файл index.html
-![](attachments/8b63bbb680322d0d8026123cc41ae99b.png)
