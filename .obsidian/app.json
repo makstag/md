@@ -3,5 +3,6 @@
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
   "attachmentFolderPath": "Исходники",
-  "spellcheck": false
+  "spellcheck": false,
+  "livePreview": true
 }

@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"fb95fac2e7e1c300","type":"group","x":-1520,"y":680,"width":1600,"height":950,"label":"Пресеты"},
+		{"id":"1b19da4dddc3d243","type":"group","x":160,"y":680,"width":660,"height":950,"label":"Сustom параметры"},
+		{"id":"8bd005dbfb2b0606","type":"group","x":960,"y":1060,"width":534,"height":780,"color":"5","label":" 0xC40000"},
+		{"id":"471692e599eff934","type":"group","x":-1440,"y":1060,"width":420,"height":500,"color":"5","label":" 0xC20000"},
+		{"id":"e0b6e3a716f693e0","type":"group","x":-920,"y":1060,"width":420,"height":500,"color":"5","label":" 0xC25000"},
+		{"id":"f08426626b7440d3","type":"group","x":-400,"y":1060,"width":420,"height":500,"color":"5","label":" 0xC30000"},
+		{"id":"e9283521bd2219f7","type":"group","x":280,"y":1060,"width":420,"height":500,"color":"5","label":" 0xC35000"},
+		{"id":"5dc21dd567cf990d","type":"text","text":"## Все пресеты изначально грузятся через UART, а затем, если очень нужно, их можно менять через web-интерфейс по одному.\n\n## Важно придумать какую-нибудь защиту, чтобы пользователь не мог случайно их перезаписать. Возможно дополнительно его спрашивать или добавить какое-нибудь id как у калибровок\n","x":-1440,"y":740,"width":900,"height":220},
+		{"id":"b9474f9c5fb2fb66","type":"text","text":"## LRR","x":-280,"y":1100,"width":179,"height":60,"color":"6"},
+		{"id":"8e28afc17f8bf9d9","type":"text","text":"## SRR","x":-1320,"y":1100,"width":179,"height":60,"color":"6"},
+		{"id":"69b4ca81250f4c3f","type":"text","text":"## Настройки чипов\n\nprofile_args_0:\n  profileid: 0\n  TX_Start_time: 0.0 # us\n  ADC_start_time: 4.5 # us\n  ramp_end_time: 18.5 # us\n  IDLE_time: 5.0 # us\n  start_freq: 77.0 # GHz\n...","x":-1400,"y":1200,"width":340,"height":320,"color":"6"},
+		{"id":"d0140662a526146e","type":"text","text":"## Настройки чипов\n\nprofile_args_0:\n  profileid: 0\n  TX_Start_time: 0.0 # us\n  ADC_start_time: 4.5 # us\n  ramp_end_time: 18.5 # us\n  IDLE_time: 5.0 # us\n  start_freq: 77.0 # GHz\n...","x":320,"y":1200,"width":340,"height":320,"color":"6"},
+		{"id":"03d417fb1b3c0878","type":"text","text":"## Все пользовательские изменения хранятся в кастомном YAML-файле на флешке радара, чтобы всегда была возможность откатиться на рабочий вариант.\n","x":230,"y":740,"width":520,"height":220},
+		{"id":"382613c2aec8230e","type":"text","text":"## Настройки чипов\n\nprofile_args_0:\n  profileid: 0\n  TX_Start_time: 0.0 # us\n  ADC_start_time: 4.5 # us\n  ramp_end_time: 18.5 # us\n  IDLE_time: 5.0 # us\n  start_freq: 77.0 # GHz\n...","x":-360,"y":1200,"width":340,"height":320,"color":"6"},
+		{"id":"61bfcb9c351d4b3b","type":"text","text":"## MRR","x":-800,"y":1100,"width":179,"height":60,"color":"6"},
+		{"id":"882688dce8db3efd","type":"text","text":"## Настройки чипов\n\nprofile_args_0:\n  profileid: 0\n  TX_Start_time: 0.0 # us\n  ADC_start_time: 4.5 # us\n  ramp_end_time: 18.5 # us\n  IDLE_time: 5.0 # us\n  start_freq: 77.0 # GHz\n...","x":-880,"y":1200,"width":340,"height":320,"color":"6"},
+		{"id":"c672c04299ed11cb","type":"text","text":"\n# Custom","x":400,"y":1100,"width":179,"height":60,"color":"6"},
+		{"id":"d1f25887d29ff9df","type":"text","text":"## Указатель на YAML, который грузить при включении\n ","x":1054,"y":1100,"width":340,"height":120,"color":"6"},
+		{"id":"afa947669e023d76","type":"text","text":"## Настройки сети\n  mode: 1\n  ip_addr: 192.168.1.50\n  mask: 255.255.255.0\n  ip_addr_send: 192.168.1.100\n  port_send: 25200\n  ip_addr_recieve: 192.168.1.100\n  port_recieve: 35200\n  ...","x":1054,"y":1260,"width":340,"height":300,"color":"6"},
+		{"id":"8a10abca0644fa23","type":"text","text":"## Настройки детектора\n  scale_a: 18\n  scale_r: 4\n  human_f: 4.0e+\n  ...","x":1054,"y":1600,"width":340,"height":180,"color":"6"}
+	],
+	"edges":[]
+}

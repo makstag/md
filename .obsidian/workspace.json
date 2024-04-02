@@ -178,6 +178,19 @@
   },
   "active": "de05f452ff76a24a",
   "lastOpenFiles": [
+    "Холсты/C++/vtable.canvas",
+    "Холсты/C++",
+    "work/glob_cfg 1.canvas",
+    "00 Исходники/vtable/NV_twobases.png",
+    "00 Исходники/vtable/NV_onebase_console.png",
+    "00 Исходники/vtable/NV_onebase.png",
+    "00 Исходники/vtable/NV_onabase_console.png",
+    "00 Исходники/vtable/Base2_console.png",
+    "00 Исходники/vtable/Base2.png",
+    "00 Исходники/vtable/Base1_console.png",
+    "00 Исходники/vtable/Base1_console 1.png",
+    "00 Исходники/vtable/Base1.png",
+    "00 Исходники/vtable",
     "С++/3 Классы и Структуры.md",
     "С++/3.1 Методы , Перегрузка операторов.md",
     "С++/3.8 Шаблоны.md",
@@ -212,16 +225,10 @@
     "С++/UB",
     "Холсты/cyberforum Базовые принципы запуска пользовательских задач в операционных системах.canvas",
     "vscode/launch.json.md",
-    "git/submodule.md",
     "git",
     "gdb valgrind",
     "vscode",
-    "Untitled Diagram.svg",
-    "00 Исходники/3.2.1.png",
     "Без названия 1.canvas",
-    "00 Исходники/0_operators_priority.png",
-    "Холсты",
-    "00 Исходники",
-    "С++"
+    "Холсты"
   ]
 }
