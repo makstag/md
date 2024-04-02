@@ -27,9 +27,9 @@
               "state": {
                 "file": "Холсты/Подготовка.canvas",
                 "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
+                  "x": 766.9474294876786,
+                  "y": 421.4260339441026,
+                  "zoom": -0.5
                 }
               }
             }
@@ -180,8 +180,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c556e42a9ab6e631",
+  "active": "094d9b8d59d08cf2",
   "lastOpenFiles": [
+    "00 Исходники/hqdefault.webp",
     "Холсты/cyberforum Базовые принципы запуска пользовательских задач в операционных системах.canvas",
     "Холсты/Подготовка.canvas",
     "MFTI_lectures.md",
