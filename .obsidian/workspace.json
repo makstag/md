@@ -4,20 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "eb25a59541657eba",
+        "id": "0b4d1d4636327ffd",
         "type": "tabs",
         "children": [
           {
-            "id": "e2ae04d00e81691d",
+            "id": "cf044330d47995ea",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Холсты/C++/vtable.canvas",
+                "file": "Холсты/Подготовка.canvas",
                 "viewState": {
-                  "x": 642.6572517584079,
-                  "y": 553.0089842091234,
-                  "zoom": -1.4551685909526286
+                  "x": 1349.858316896055,
+                  "y": 1087.6642956220824,
+                  "zoom": -1.9946862001035321
                 }
               }
             }
@@ -90,7 +90,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Холсты/C++/vtable.canvas",
+                "file": "Холсты/Подготовка.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Холсты/C++/vtable.canvas"
+                "file": "Холсты/Подготовка.canvas"
               }
             }
           }
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Холсты/C++/vtable.canvas",
+                "file": "Холсты/Подготовка.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,14 +166,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e2ae04d00e81691d",
+  "active": "cf044330d47995ea",
   "lastOpenFiles": [
-    "С++/Основы/3.2 Наследование.md",
     "Холсты/C++/vtable.canvas",
     "Холсты/Подготовка.canvas",
-    "00 Исходники/hqdefault.webp",
     "Холсты/cyberforum Базовые принципы запуска пользовательских задач в операционных системах.canvas",
+    "Холсты/Полезные gitlab проекты.canvas",
+    "Холсты/Полезные онлайн отладчики.canvas",
     "MFTI_lectures.md",
+    "С++/Основы/3.2 Наследование.md",
+    "00 Исходники/hqdefault.webp",
     "С++/Структуры данных/Vector.md",
     "С++/Основы/4 Кастование.md",
     "С++/Основы/Разбираемся с кастами.md",
@@ -214,9 +216,7 @@
     "С++/3.4 Множественное наследование.md",
     "work/glob_cfg.canvas",
     "work",
-    "Холсты/Полезные онлайн отладчики.canvas",
     "Excalidraw",
-    "Холсты/Полезные gitlab проекты.canvas",
     "С++/UB",
     "git",
     "gdb valgrind",
