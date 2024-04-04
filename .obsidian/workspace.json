@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Холсты/Подготовка.canvas",
+                "file": "Холсты/C++/vtable.canvas",
                 "viewState": {
-                  "x": 523.8227689916203,
-                  "y": 818.8259930058451,
-                  "zoom": -1.0407203265616007
+                  "x": 2080.4194231287793,
+                  "y": 1766.342480169242,
+                  "zoom": -0.5999999999999999
                 }
               }
             }
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "path:\"00 Исходники\" path:\"00 Исходники\"  ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +90,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Холсты/Подготовка.canvas",
+                "file": "Холсты/C++/vtable.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Холсты/Подготовка.canvas"
+                "file": "Холсты/C++/vtable.canvas"
               }
             }
           }
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Холсты/Подготовка.canvas",
+                "file": "Холсты/C++/vtable.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,22 +168,31 @@
   },
   "active": "ab032455b3885dce",
   "lastOpenFiles": [
-    "Холсты/cyberforum Базовые принципы запуска пользовательских задач в операционных системах.canvas",
+    "00 Исходники/vtable/GS_console.png",
+    "00 Исходники/vtable/V2_console.png",
+    "00 Исходники/vtable/NV_twobases_console.png",
+    "00 Исходники/vtable/NV_twobases.png",
     "Холсты/C++/vtable.canvas",
-    "С++/Основы/3.5 Полиморфизм и виртуальные функции.md",
-    "С++/Основы/3.6 RTTI и dynamic_cast.md",
-    "С++/Основы/3.2 Наследование.md",
+    "00 Исходники/vtable/V2.png",
+    "00 Исходники/vtable/V1.png",
+    "00 Исходники/vtable/NV_onabase_console.png",
+    "00 Исходники/vtable/NV_onebase_console.png",
+    "00 Исходники/vtable/Base1_console.png",
     "С++/Основы/3.7 Vtables.md",
+    "00 Исходники/vtable/NV_onebase.png",
+    "00 Исходники/vtable/GS.png",
+    "С++/Основы/3.6 RTTI и dynamic_cast.md",
+    "С++/Основы/Разбираемся с кастами.md",
+    "buffer.md",
+    "С++/Основы/3.5 Полиморфизм и виртуальные функции.md",
     "Холсты/Подготовка.canvas",
-    "00 Исходники/vtable/NV_twobases1.png",
-    "00 Исходники/vtable/NV_twobases2.png",
+    "Холсты/cyberforum Базовые принципы запуска пользовательских задач в операционных системах.canvas",
+    "С++/Основы/3.2 Наследование.md",
     "Холсты/Полезные gitlab проекты.canvas",
     "Холсты/Полезные онлайн отладчики.canvas",
     "MFTI_lectures.md",
-    "00 Исходники/hqdefault.webp",
     "С++/Структуры данных/Vector.md",
     "С++/Основы/4 Кастование.md",
-    "С++/Основы/Разбираемся с кастами.md",
     "С++/Структуры данных",
     "С++/Основы/3.1 Методы , Перегрузка операторов.md",
     "С++/Основы/3 Классы и Структуры.md",
@@ -201,19 +210,11 @@
     "С++/3.8 Шаблоны.md",
     "Холсты/C++",
     "work/glob_cfg 1.canvas",
-    "00 Исходники/vtable/NV_twobases.png",
-    "00 Исходники/vtable/NV_onebase_console.png",
-    "00 Исходники/vtable/NV_onebase.png",
-    "00 Исходники/vtable/NV_onabase_console.png",
-    "00 Исходники/vtable/Base2_console.png",
-    "00 Исходники/vtable/Base2.png",
-    "00 Исходники/vtable/Base1_console.png",
     "00 Исходники/vtable",
     "С++/3 Классы и Структуры.md",
     "С++/3.1 Методы , Перегрузка операторов.md",
     "С++/3.7 Vtables.md",
     "С++/3.6 RTTI и dynamic_cast.md",
-    "С++/3.4 Множественное наследование.md",
     "work/glob_cfg.canvas",
     "work",
     "Excalidraw",
