@@ -15,9 +15,24 @@
               "state": {
                 "file": "Холсты/C++/vtable.canvas",
                 "viewState": {
-                  "x": 2080.4194231287793,
-                  "y": 1766.342480169242,
-                  "zoom": -0.5999999999999999
+                  "x": 1588.240601860931,
+                  "y": 1878.0340121536226,
+                  "zoom": -1.5665884598727904
+                }
+              }
+            }
+          },
+          {
+            "id": "72871281220206bd",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Холсты/Подготовка.canvas",
+                "viewState": {
+                  "x": 856.098503740648,
+                  "y": 444.2626831359104,
+                  "zoom": -0.1268595067660013
                 }
               }
             }
@@ -73,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 368.5
+    "width": 200
   },
   "right": {
     "id": "3c24f02499b103ac",
@@ -157,37 +172,39 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Меню быстрого перехода": false,
-      "graph:Граф": false,
-      "canvas:Создать новый холст": false,
-      "daily-notes:Сегодняшняя заметка": false,
-      "templates:Вставить шаблон": false,
-      "command-palette:Открыть палитру команд": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "ab032455b3885dce",
   "lastOpenFiles": [
+    "Холсты/Подготовка.canvas",
+    "С++/Основы/3.7 Vtables.md",
+    "Холсты/C++/vtable.canvas",
+    "С++/Основы/3.2 Наследование.md",
+    "С++/Основы/3 Классы и Структуры.md",
+    "С++/Основы/3.5 Полиморфизм и виртуальные функции.md",
+    "С++/Основы/3.8 Шаблоны.md",
+    "С++/Основы/3.4 Множественное наследование.md",
     "00 Исходники/vtable/GS_console.png",
     "00 Исходники/vtable/V2_console.png",
     "00 Исходники/vtable/NV_twobases_console.png",
     "00 Исходники/vtable/NV_twobases.png",
-    "Холсты/C++/vtable.canvas",
     "00 Исходники/vtable/V2.png",
     "00 Исходники/vtable/V1.png",
     "00 Исходники/vtable/NV_onabase_console.png",
     "00 Исходники/vtable/NV_onebase_console.png",
     "00 Исходники/vtable/Base1_console.png",
-    "С++/Основы/3.7 Vtables.md",
     "00 Исходники/vtable/NV_onebase.png",
-    "00 Исходники/vtable/GS.png",
     "С++/Основы/3.6 RTTI и dynamic_cast.md",
     "С++/Основы/Разбираемся с кастами.md",
     "buffer.md",
-    "С++/Основы/3.5 Полиморфизм и виртуальные функции.md",
-    "Холсты/Подготовка.canvas",
     "Холсты/cyberforum Базовые принципы запуска пользовательских задач в операционных системах.canvas",
-    "С++/Основы/3.2 Наследование.md",
     "Холсты/Полезные gitlab проекты.canvas",
     "Холсты/Полезные онлайн отладчики.canvas",
     "MFTI_lectures.md",
@@ -195,14 +212,11 @@
     "С++/Основы/4 Кастование.md",
     "С++/Структуры данных",
     "С++/Основы/3.1 Методы , Перегрузка операторов.md",
-    "С++/Основы/3 Классы и Структуры.md",
     "С++/Основы/2 Функции, Структуры данных.md",
     "С++/Основы/1 Указатели, Ссылки.md",
     "С++/Основы/0 Переменные, Операторы, Квалификаторы.md",
     "С++/Основы/00 Введение.md",
     "Сторонее/pvs.md",
-    "С++/Основы/3.8 Шаблоны.md",
-    "С++/Основы/3.4 Множественное наследование.md",
     "С++/Основы/3.3 Приведение типов при наследовании.md",
     "С++/Основы/UB/Примеры.md",
     "С++/Основы/UB",
