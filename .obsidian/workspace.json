@@ -8,32 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ab032455b3885dce",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Холсты/C++/vtable.canvas",
-                "viewState": {
-                  "x": 1588.240601860931,
-                  "y": 1878.0340121536226,
-                  "zoom": -1.5665884598727904
-                }
-              }
-            }
-          },
-          {
             "id": "72871281220206bd",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Холсты/Подготовка.canvas",
-                "viewState": {
-                  "x": 856.098503740648,
-                  "y": 444.2626831359104,
-                  "zoom": -0.1268595067660013
-                }
+                "file": "С++/Основы/3.5 Полиморфизм и виртуальные функции.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -56,7 +38,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:\"00 Исходники\" path:\"00 Исходники\"  ",
+                "query": "todo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -83,12 +65,11 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 258.5
   },
   "right": {
     "id": "3c24f02499b103ac",
@@ -105,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Холсты/C++/vtable.canvas",
+                "file": "С++/Основы/3.5 Полиморфизм и виртуальные функции.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Холсты/C++/vtable.canvas"
+                "file": "С++/Основы/3.5 Полиморфизм и виртуальные функции.md"
               }
             }
           }
@@ -134,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Холсты/C++/vtable.canvas",
+                "file": "С++/Основы/3.5 Полиморфизм и виртуальные функции.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,24 +153,29 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ab032455b3885dce",
+  "active": "72871281220206bd",
   "lastOpenFiles": [
-    "Холсты/Подготовка.canvas",
-    "С++/Основы/3.7 Vtables.md",
+    "work/glob_cfg.canvas",
     "Холсты/C++/vtable.canvas",
+    "С++/Основы/UB/Примеры.md",
+    "work/glob_cfg 1.canvas",
+    "С++/Основы/3.7 Vtables.md",
+    "С++/Основы/3.6 RTTI и dynamic_cast.md",
+    "С++/Основы/3.8 Шаблоны.md",
+    "С++/Основы/4 Кастование.md",
+    "Холсты/Подготовка.canvas",
     "С++/Основы/3.2 Наследование.md",
     "С++/Основы/3 Классы и Структуры.md",
     "С++/Основы/3.5 Полиморфизм и виртуальные функции.md",
-    "С++/Основы/3.8 Шаблоны.md",
     "С++/Основы/3.4 Множественное наследование.md",
     "00 Исходники/vtable/GS_console.png",
     "00 Исходники/vtable/V2_console.png",
@@ -201,7 +187,6 @@
     "00 Исходники/vtable/NV_onebase_console.png",
     "00 Исходники/vtable/Base1_console.png",
     "00 Исходники/vtable/NV_onebase.png",
-    "С++/Основы/3.6 RTTI и dynamic_cast.md",
     "С++/Основы/Разбираемся с кастами.md",
     "buffer.md",
     "Холсты/cyberforum Базовые принципы запуска пользовательских задач в операционных системах.canvas",
@@ -209,7 +194,6 @@
     "Холсты/Полезные онлайн отладчики.canvas",
     "MFTI_lectures.md",
     "С++/Структуры данных/Vector.md",
-    "С++/Основы/4 Кастование.md",
     "С++/Структуры данных",
     "С++/Основы/3.1 Методы , Перегрузка операторов.md",
     "С++/Основы/2 Функции, Структуры данных.md",
@@ -218,18 +202,15 @@
     "С++/Основы/00 Введение.md",
     "Сторонее/pvs.md",
     "С++/Основы/3.3 Приведение типов при наследовании.md",
-    "С++/Основы/UB/Примеры.md",
     "С++/Основы/UB",
     "С++/Основы",
     "С++/3.8 Шаблоны.md",
     "Холсты/C++",
-    "work/glob_cfg 1.canvas",
     "00 Исходники/vtable",
     "С++/3 Классы и Структуры.md",
     "С++/3.1 Методы , Перегрузка операторов.md",
     "С++/3.7 Vtables.md",
     "С++/3.6 RTTI и dynamic_cast.md",
-    "work/glob_cfg.canvas",
     "work",
     "Excalidraw",
     "С++/UB",
