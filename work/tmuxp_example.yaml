@@ -1,0 +1,27 @@
+session_name: RADAR
+suppress_history: false
+start_directory: /home/user/workspace/radar_ws/src_two_clouds/radar_node/docker
+global_options:
+  default-shell: /bin/bash
+  default-command: /bin/bash
+environment:
+  EDITOR: /bin/nano
+windows:
+- window_name: radar
+  focus: true
+  layout: tiled
+  shell_command_before:
+    - source /opt/ros/melodic/setup.bash
+    - docker stop radar
+    - sleep 12
+    - docker rm radar
+  panes:
+    - shell_command:
+      - ./run_container.sh -d
+      - ./radar_node.sh -d
+    - shell_command:
+      - echo "./scripts/up.sh -l aufd.rqt ros2_bag_docker_rqt"
+    - shell_command:
+      - rostopic hz /radar/front/points/static -w 5
+    - shell_command:
+      - rostopic hz /radar/front/points/dynamic -w 5

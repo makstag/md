@@ -11,28 +11,18 @@
             "id": "d1905a7295f2cfce",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "С++/Основы/5 Шаблоны.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cc11298d73d58ec1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "С++/Основы/5 Шаблоны.md",
-                "mode": "source",
-                "source": false
+                "file": "Холсты/Подготовка.canvas",
+                "viewState": {
+                  "x": 609.8850818231679,
+                  "y": 1129.4112889309558,
+                  "zoom": -1.4275827302853057
+                }
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -51,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#typename",
+                "query": "git",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +68,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -99,7 +90,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "С++/Основы/5 Шаблоны.md",
+                "file": "Холсты/Подготовка.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -111,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "С++/Основы/5 Шаблоны.md"
+                "file": "Холсты/Подготовка.canvas"
               }
             }
           }
@@ -128,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "С++/Основы/5 Шаблоны.md",
+                "file": "Холсты/Подготовка.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,26 +166,33 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cc11298d73d58ec1",
+  "active": "d1905a7295f2cfce",
   "lastOpenFiles": [
-    "С++/Основы/3.5 RTTI и Vtable.md",
-    "С++/Основы/3.4 Полиморфизм и виртуальные функции.md",
+    "Холсты/C++/vtable.canvas",
+    "Холсты/cyberforum.canvas",
+    "Холсты/Подготовка.canvas",
+    "разные ссылки.md",
+    "buffer.md",
+    "git/Команды.md",
+    "git/Настройки.md",
+    "Без названия",
+    "git/submodule.md",
+    "С++/Основы/1 Указатели, Ссылки.md",
     "С++/Основы/5 Шаблоны.md",
+    "С++/Основы/3.4 Полиморфизм и виртуальные функции.md",
+    "MFTI_lectures.md",
+    "С++/Основы/3.5 RTTI и Vtable.md",
     "С++/Основы/4 Кастование.md",
     "00 Исходники/audio/privedenie_tipov_pri_nasledovanii.ogg",
     "00 Исходники/audio",
     "work/glob_cfg.canvas",
-    "Холсты/C++/vtable.canvas",
-    "Холсты/Подготовка.canvas",
     "С++/Структуры данных/Vector.md",
     "С++/Основы/3.3 Множественное наследование.md",
     "С++/Основы/3.2 Наследование.md",
     "С++/Основы/3.1 Методы , Перегрузка операторов.md",
     "С++/Основы/3 Классы и Структуры.md",
     "С++/Основы/2 Функции, Структуры данных.md",
-    "С++/Основы/1 Указатели, Ссылки.md",
     "С++/Основы/0 Переменные, Операторы, Квалификаторы.md",
-    "buffer.md",
     "С++/Основы/3.3 Приведение типов при наследовании.md",
     "С++/Основы/3.6 RTTI и dynamic_cast.md",
     "С++/Основы/00 Введение.md",
@@ -214,21 +212,14 @@
     "00 Исходники/vtable/NV_onebase_console.png",
     "00 Исходники/vtable/Base1_console.png",
     "00 Исходники/vtable/NV_onebase.png",
-    "Холсты/cyberforum Базовые принципы запуска пользовательских задач в операционных системах.canvas",
     "Холсты/Полезные gitlab проекты.canvas",
     "Холсты/Полезные онлайн отладчики.canvas",
-    "MFTI_lectures.md",
     "С++/Структуры данных",
     "Сторонее/pvs.md",
     "С++/Основы/UB",
     "С++/Основы",
     "С++/3.8 Шаблоны.md",
     "Холсты/C++",
-    "00 Исходники/vtable",
-    "С++/3 Классы и Структуры.md",
-    "С++/3.1 Методы , Перегрузка операторов.md",
-    "С++/3.7 Vtables.md",
-    "С++/3.6 RTTI и dynamic_cast.md",
     "Без названия 1.canvas"
   ]
 }

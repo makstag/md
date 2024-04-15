@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"79da6cbb16c1cbc0","type":"link","url":"https://www.cyberforum.ru/blogs/18334/blog4913.html","x":440,"y":-400,"width":283,"height":209},
+		{"id":"702b79ee06da297b","type":"link","url":"https://www.cyberforum.ru/blogs/18334/blog4960.html","x":440,"y":-40,"width":283,"height":280},
+		{"id":"0e8f69c50653c3ce","type":"link","url":"https://www.cyberforum.ru/blogs/18334/blog5130.html","x":440,"y":400,"width":283,"height":240},
+		{"id":"8be9b398ea9bd69f","type":"text","text":"**Статья 1. Базовые принципы запуска пользовательских задач в операционных системах**","x":20,"y":-420,"width":250,"height":209},
+		{"id":"368158a3e5d0948b","type":"text","text":"**Статья 2. Базовые принципы работы Hyper-threading**","x":20,"y":-144,"width":250,"height":209},
+		{"id":"7726e51f31baca8c","type":"text","text":" **Статья 3. Базовые сведения о микроархитектуре**","x":20,"y":136,"width":250,"height":209},
+		{"id":"5648818a1f8e3579","type":"text","text":"Реализация ассертов\nhttps://www.cyberforum.ru/blogs/18334/blog104.html\n\nПредставление вещественных чисел\nhttps://www.cyberforum.ru/blogs/18334/blog88.html\n\nОператор switch\nhttps://www.cyberforum.ru/blogs/18334/blog91.html","x":-360,"y":-420,"width":290,"height":340}
+	],
+	"edges":[
+		{"id":"dafbc11189f2fe84","fromNode":"8be9b398ea9bd69f","fromSide":"right","toNode":"79da6cbb16c1cbc0","toSide":"left"},
+		{"id":"c60275dfc5fe34b0","fromNode":"368158a3e5d0948b","fromSide":"right","toNode":"702b79ee06da297b","toSide":"left"},
+		{"id":"55badb7111293503","fromNode":"7726e51f31baca8c","fromSide":"right","toNode":"0e8f69c50653c3ce","toSide":"left"},
+		{"id":"afff0e8a25a32d1d","fromNode":"8be9b398ea9bd69f","fromSide":"bottom","toNode":"368158a3e5d0948b","toSide":"top"},
+		{"id":"f918b0f344c7945f","fromNode":"368158a3e5d0948b","fromSide":"bottom","toNode":"7726e51f31baca8c","toSide":"top"}
+	]
+}
