@@ -11,18 +11,52 @@
             "id": "d1905a7295f2cfce",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Холсты/Подготовка.canvas",
-                "viewState": {
-                  "x": 609.8850818231679,
-                  "y": 1129.4112889309558,
-                  "zoom": -1.4275827302853057
-                }
+                "file": "С++/0 Основы/1 Шаблоны/0 Шаблоны.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "09eefad45e9442d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "С++/0 Основы/1 Шаблоны/2 Fold expression, CRTR, Expression templates.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3046c57e4683a657",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "С++/0 Основы/1 Шаблоны/0 Шаблоны.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "90a84cf2b30ae055",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "С++/0 Основы/UB/++.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -73,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 380.5
+    "width": 440.5
   },
   "right": {
     "id": "3c24f02499b103ac",
@@ -90,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Холсты/Подготовка.canvas",
+                "file": "С++/0 Основы/UB/++.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -102,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Холсты/Подготовка.canvas"
+                "file": "С++/0 Основы/UB/++.md"
               }
             }
           }
@@ -119,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Холсты/Подготовка.canvas",
+                "file": "С++/0 Основы/UB/++.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,41 +200,49 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d1905a7295f2cfce",
+  "active": "c556e42a9ab6e631",
   "lastOpenFiles": [
-    "Холсты/C++/vtable.canvas",
-    "Холсты/cyberforum.canvas",
+    "С++/0 Основы/1 Шаблоны/1 Dependent names,  Variadic templates, Type Traits.md",
+    "С++/0 Основы/Углубленное представление",
+    "С++/Наивные реализации",
+    "С++/Алгоритмы",
+    "С++/0 Основы/1 Шаблоны/0 Шаблоны.md",
+    "С++/0 Основы/0 Классы/2 Наследование.md",
+    "С++/0 Основы/0 Классы/1 Методы , Перегрузка операторов.md",
+    "С++/0 Основы/0 Классы/0 Классы и Структуры.md",
+    "С++/0 Основы/0 Переменные, Операторы, Квалификаторы.md",
+    "С++/Структуры данных/Vector.md",
+    "С++/0 Основы/1 Шаблоны/2 Fold expression, CRTR, Expression templates.md",
+    "С++/0 Основы/0 Классы/5 RTTI и Vtable.md",
+    "С++/0 Основы/0 Классы/4 Полиморфизм и виртуальные функции.md",
+    "С++/0 Основы/0 Классы/3 Множественное наследование.md",
+    "С++/0 Основы/4 Exeptions.md",
+    "С++/0 Основы/3 Кастование.md",
+    "С++/0 Основы/1 Шаблоны",
+    "С++/0 Основы/UB/++.md",
+    "С++/0 Основы/0 Классы",
     "Холсты/Подготовка.canvas",
-    "разные ссылки.md",
     "buffer.md",
+    "разные ссылки.md",
+    "Холсты/Полезные онлайн отладчики.canvas",
+    "Холсты/Полезные gitlab проекты.canvas",
+    "Холсты/cyberforum.canvas",
+    "Холсты/C++/vtable.canvas",
     "git/Команды.md",
     "git/Настройки.md",
-    "Без названия",
     "git/submodule.md",
-    "С++/Основы/1 Указатели, Ссылки.md",
-    "С++/Основы/5 Шаблоны.md",
-    "С++/Основы/3.4 Полиморфизм и виртуальные функции.md",
+    "С++/0 Основы/1 Указатели, Ссылки.md",
     "MFTI_lectures.md",
-    "С++/Основы/3.5 RTTI и Vtable.md",
-    "С++/Основы/4 Кастование.md",
     "00 Исходники/audio/privedenie_tipov_pri_nasledovanii.ogg",
     "00 Исходники/audio",
     "work/glob_cfg.canvas",
-    "С++/Структуры данных/Vector.md",
-    "С++/Основы/3.3 Множественное наследование.md",
-    "С++/Основы/3.2 Наследование.md",
-    "С++/Основы/3.1 Методы , Перегрузка операторов.md",
-    "С++/Основы/3 Классы и Структуры.md",
-    "С++/Основы/2 Функции, Структуры данных.md",
-    "С++/Основы/0 Переменные, Операторы, Квалификаторы.md",
+    "С++/0 Основы/2 Функции, Структуры данных.md",
     "С++/Основы/3.3 Приведение типов при наследовании.md",
     "С++/Основы/3.6 RTTI и dynamic_cast.md",
-    "С++/Основы/00 Введение.md",
-    "С++/Основы/Разбираемся с кастами.md",
+    "С++/0 Основы/00 Введение.md",
     "00 Исходники/privedenie_tipov_pri_nasledovanii 1.ogg",
     "00 Исходники/privedenie_tipov_pri_nasledovanii 2.ogg",
     "00 Исходники/privedenie_tipov_pri_nasledovanii.ogg",
-    "С++/Основы/UB/Примеры.md",
     "work/glob_cfg 1.canvas",
     "00 Исходники/vtable/GS_console.png",
     "00 Исходники/vtable/V2_console.png",
@@ -212,14 +254,6 @@
     "00 Исходники/vtable/NV_onebase_console.png",
     "00 Исходники/vtable/Base1_console.png",
     "00 Исходники/vtable/NV_onebase.png",
-    "Холсты/Полезные gitlab проекты.canvas",
-    "Холсты/Полезные онлайн отладчики.canvas",
-    "С++/Структуры данных",
-    "Сторонее/pvs.md",
-    "С++/Основы/UB",
-    "С++/Основы",
-    "С++/3.8 Шаблоны.md",
-    "Холсты/C++",
     "Без названия 1.canvas"
   ]
 }
