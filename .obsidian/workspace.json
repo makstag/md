@@ -8,36 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d1905a7295f2cfce",
+            "id": "898312249992c36b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "С++/0 Основы/4 Exeptions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3046c57e4683a657",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "С++/0 Основы/1 Шаблоны/0 Шаблоны.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "90a84cf2b30ae055",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "С++/0 Основы/UB/++.md",
+                "file": "С++/Идиомы/RAII.md",
                 "mode": "source",
                 "source": false
               }
@@ -62,7 +38,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "git",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440.5
+    "width": 385.5
   },
   "right": {
     "id": "3c24f02499b103ac",
@@ -111,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "С++/0 Основы/4 Exeptions.md",
+                "file": "С++/Идиомы/RAII.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "С++/0 Основы/4 Exeptions.md"
+                "file": "С++/Идиомы/RAII.md"
               }
             }
           }
@@ -140,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "С++/0 Основы/4 Exeptions.md",
+                "file": "С++/Идиомы/RAII.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,28 +163,33 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d1905a7295f2cfce",
+  "active": "898312249992c36b",
   "lastOpenFiles": [
-    "С++/0 Основы/1 Шаблоны/2 Fold expression, CRTR, Expression templates.md",
-    "С++/0 Основы/1 Шаблоны/0 Шаблоны.md",
+    "Холсты/Подготовка.canvas",
+    "С++/Идиомы/RAII.md",
+    "С++/0 Основы/4 Exeptions.md",
+    "00 Исходники/exeption.png",
+    "exeption.png",
+    "С++/0 Основы/2 Функции, Структуры данных.md",
+    "С++/0 Основы/0 Переменные, Операторы, Квалификаторы.md",
     "С++/0 Основы/0 Классы/0 Классы и Структуры.md",
+    "С++/0 Основы/1 Шаблоны/0 Шаблоны.md",
+    "С++/Идиомы",
+    "С++/0 Основы/1 Шаблоны/2 Fold expression, CRTR, Expression templates.md",
     "С++/0 Основы/1 Шаблоны/1 Dependent names,  Variadic templates, Type Traits.md",
     "С++/0 Основы/Углубленное представление",
     "С++/Наивные реализации",
     "С++/Алгоритмы",
     "С++/0 Основы/0 Классы/2 Наследование.md",
     "С++/0 Основы/0 Классы/1 Методы , Перегрузка операторов.md",
-    "С++/0 Основы/0 Переменные, Операторы, Квалификаторы.md",
     "С++/Структуры данных/Vector.md",
     "С++/0 Основы/0 Классы/5 RTTI и Vtable.md",
     "С++/0 Основы/0 Классы/4 Полиморфизм и виртуальные функции.md",
     "С++/0 Основы/0 Классы/3 Множественное наследование.md",
-    "С++/0 Основы/4 Exeptions.md",
     "С++/0 Основы/3 Кастование.md",
     "С++/0 Основы/1 Шаблоны",
     "С++/0 Основы/UB/++.md",
     "С++/0 Основы/0 Классы",
-    "Холсты/Подготовка.canvas",
     "buffer.md",
     "разные ссылки.md",
     "Холсты/Полезные онлайн отладчики.canvas",
@@ -223,13 +204,10 @@
     "00 Исходники/audio/privedenie_tipov_pri_nasledovanii.ogg",
     "00 Исходники/audio",
     "work/glob_cfg.canvas",
-    "С++/0 Основы/2 Функции, Структуры данных.md",
     "С++/Основы/3.3 Приведение типов при наследовании.md",
     "С++/Основы/3.6 RTTI и dynamic_cast.md",
-    "С++/0 Основы/00 Введение.md",
     "00 Исходники/privedenie_tipov_pri_nasledovanii 1.ogg",
     "00 Исходники/privedenie_tipov_pri_nasledovanii 2.ogg",
-    "00 Исходники/privedenie_tipov_pri_nasledovanii.ogg",
     "work/glob_cfg 1.canvas",
     "00 Исходники/vtable/GS_console.png",
     "00 Исходники/vtable/V2_console.png",
@@ -239,8 +217,6 @@
     "00 Исходники/vtable/V1.png",
     "00 Исходники/vtable/NV_onabase_console.png",
     "00 Исходники/vtable/NV_onebase_console.png",
-    "00 Исходники/vtable/Base1_console.png",
-    "00 Исходники/vtable/NV_onebase.png",
     "Без названия 1.canvas"
   ]
 }
