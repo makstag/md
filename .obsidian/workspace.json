@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "С++/Идиомы/RAII.md",
+                "file": "С++/std/Структуры данных/Vector.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "С++/Идиомы/RAII.md",
+                "file": "С++/std/Структуры данных/Vector.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "С++/Идиомы/RAII.md"
+                "file": "С++/std/Структуры данных/Vector.md"
               }
             }
           }
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "С++/Идиомы/RAII.md",
+                "file": "С++/std/Структуры данных/Vector.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,24 +165,25 @@
   },
   "active": "898312249992c36b",
   "lastOpenFiles": [
+    "С++/0 Основы/0 Классы/1 Методы , Перегрузка операторов.md",
+    "С++/0 Основы/0 Классы/0 Классы и Структуры.md",
+    "С++/std/Структуры данных/Vector.md",
     "Холсты/Подготовка.canvas",
-    "С++/Идиомы/RAII.md",
     "С++/0 Основы/4 Exeptions.md",
-    "00 Исходники/exeption.png",
-    "exeption.png",
+    "С++/std",
     "С++/0 Основы/2 Функции, Структуры данных.md",
     "С++/0 Основы/0 Переменные, Операторы, Квалификаторы.md",
-    "С++/0 Основы/0 Классы/0 Классы и Структуры.md",
+    "С++/Идиомы/RAII.md",
+    "00 Исходники/exeption.png",
+    "exeption.png",
     "С++/0 Основы/1 Шаблоны/0 Шаблоны.md",
     "С++/Идиомы",
     "С++/0 Основы/1 Шаблоны/2 Fold expression, CRTR, Expression templates.md",
     "С++/0 Основы/1 Шаблоны/1 Dependent names,  Variadic templates, Type Traits.md",
     "С++/0 Основы/Углубленное представление",
-    "С++/Наивные реализации",
+    "С++/std/Наивные реализации",
     "С++/Алгоритмы",
     "С++/0 Основы/0 Классы/2 Наследование.md",
-    "С++/0 Основы/0 Классы/1 Методы , Перегрузка операторов.md",
-    "С++/Структуры данных/Vector.md",
     "С++/0 Основы/0 Классы/5 RTTI и Vtable.md",
     "С++/0 Основы/0 Классы/4 Полиморфизм и виртуальные функции.md",
     "С++/0 Основы/0 Классы/3 Множественное наследование.md",
@@ -207,7 +208,6 @@
     "С++/Основы/3.3 Приведение типов при наследовании.md",
     "С++/Основы/3.6 RTTI и dynamic_cast.md",
     "00 Исходники/privedenie_tipov_pri_nasledovanii 1.ogg",
-    "00 Исходники/privedenie_tipov_pri_nasledovanii 2.ogg",
     "work/glob_cfg 1.canvas",
     "00 Исходники/vtable/GS_console.png",
     "00 Исходники/vtable/V2_console.png",
