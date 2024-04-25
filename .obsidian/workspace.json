@@ -23,9 +23,24 @@
             "id": "c938ecb389c83902",
             "type": "leaf",
             "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Холсты/cyberforum.canvas",
+                "viewState": {
+                  "x": 181.5,
+                  "y": 110,
+                  "zoom": 0
+                }
+              }
+            }
+          },
+          {
+            "id": "7ae98a51e3b10a65",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "С++/0 Основы/5 Итераторы и их категории.md",
+                "file": "Linux/Потоки вывода и консольные команды.md",
                 "mode": "source",
                 "source": false
               }
@@ -47,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -115,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "С++/0 Основы/5 Итераторы и их категории.md",
+                "file": "Linux/Потоки вывода и консольные команды.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "С++/0 Основы/5 Итераторы и их категории.md"
+                "file": "Linux/Потоки вывода и консольные команды.md"
               }
             }
           }
@@ -144,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "С++/0 Основы/5 Итераторы и их категории.md",
+                "file": "Linux/Потоки вывода и консольные команды.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,17 +206,22 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c938ecb389c83902",
+  "active": "c556e42a9ab6e631",
   "lastOpenFiles": [
-    "С++/0 Основы/31 Потоки ввода вывода. Перенаправление ввода вывода.md",
+    "Холсты/Потоки вывода и консольные команды.md",
+    "Linux/Потоки вывода и консольные команды.md",
+    "Холсты/Подготовка.canvas",
+    "С++/0 Основы/Потоки ввода вывода. Перенаправление ввода вывода.md",
+    "Холсты/cyberforum.canvas",
+    "Linux",
+    "С++/0 Основы/5 Итераторы и их категории.md",
+    "С++/0 Основы/1 Шаблоны/0 Шаблоны.md",
     "MFTI_lectures.md",
     "buffer.md",
     "С++/0 Основы/3 Кастование.md",
-    "С++/0 Основы/5 Итераторы и их категории.md",
     "С++/0 Основы/1 Указатели, Ссылки.md",
     "С++/0 Основы/00 Введение.md",
     "С++/std/Структуры данных/Deque.md",
-    "Холсты/Подготовка.canvas",
     "С++/std/Структуры данных/Vector.md",
     "С++/0 Основы/1 Шаблоны/2 Fold expression, CRTR, Expression templates.md",
     "С++/0 Основы/0 Классы/1 Методы , Перегрузка операторов.md",
@@ -215,7 +235,6 @@
     "С++/Идиомы/RAII.md",
     "00 Исходники/exeption.png",
     "exeption.png",
-    "С++/0 Основы/1 Шаблоны/0 Шаблоны.md",
     "С++/Идиомы",
     "С++/0 Основы/Углубленное представление",
     "С++/std/Наивные реализации",
@@ -226,17 +245,12 @@
     "С++/0 Основы/1 Шаблоны",
     "С++/0 Основы/UB/++.md",
     "С++/0 Основы/0 Классы",
-    "разные ссылки.md",
     "Холсты/Полезные онлайн отладчики.canvas",
     "Холсты/Полезные gitlab проекты.canvas",
-    "Холсты/cyberforum.canvas",
     "Холсты/C++/vtable.canvas",
-    "git/Команды.md",
-    "git/Настройки.md",
     "00 Исходники/audio/privedenie_tipov_pri_nasledovanii.ogg",
     "00 Исходники/audio",
     "work/glob_cfg.canvas",
-    "00 Исходники/privedenie_tipov_pri_nasledovanii 1.ogg",
     "work/glob_cfg 1.canvas",
     "00 Исходники/vtable/GS_console.png",
     "00 Исходники/vtable/V2_console.png",
