@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "С++/std/Структуры данных/Deque.md",
+                "file": "С++/std/Структуры данных/List.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Потоки вывода и консольные команды.md",
+                "file": "Linux/gdb valgrind/Отладка.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -83,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 385.5
+    "width": 980.5
   },
   "right": {
     "id": "3c24f02499b103ac",
@@ -100,7 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Потоки вывода и консольные команды.md",
+                "file": "С++/std/Структуры данных/List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -112,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Потоки вывода и консольные команды.md"
+                "file": "С++/std/Структуры данных/List.md"
               }
             }
           }
@@ -129,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Потоки вывода и консольные команды.md",
+                "file": "С++/std/Структуры данных/List.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,12 +175,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "32ff893180224d8c",
+  "active": "898312249992c36b",
   "lastOpenFiles": [
+    "Сторонее/pvs.md",
+    "Linux/git/Настройки.md",
+    "Linux/git/Команды.md",
+    "Linux/git/submodule.md",
+    "С++/std/Структуры данных/Deque.md",
+    "Linux/gdb valgrind/Отладка.md",
+    "Linux/Потоки вывода и консольные команды.md",
     "Linux/vscode/launch.json.md",
     "С++/std/Структуры данных/List.md",
-    "С++/std/Структуры данных/Deque.md",
-    "Linux/Потоки вывода и консольные команды.md",
     "С++/0 Основы/5 Итераторы и их категории.md",
     "С++/0 Основы/4 Exeptions.md",
     "С++/Многоточность/thread.md",
@@ -210,13 +214,8 @@
     "С++/0 Основы/0 Классы/1 Методы , Перегрузка операторов.md",
     "С++/0 Основы/0 Классы/5 RTTI и Vtable.md",
     "С++/0 Основы/0 Классы/4 Полиморфизм и виртуальные функции.md",
-    "С++/0 Основы/0 Классы/3 Множественное наследование.md",
-    "С++/0 Основы/3 Кастование.md",
     "С++/0 Основы/1 Шаблоны",
-    "С++/0 Основы/UB/++.md",
     "С++/0 Основы/0 Классы",
-    "buffer.md",
-    "разные ссылки.md",
     "Холсты/Полезные онлайн отладчики.canvas",
     "Холсты/Полезные gitlab проекты.canvas",
     "Холсты/cyberforum.canvas",
