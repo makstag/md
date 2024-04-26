@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "С++/std/Структуры данных/List.md",
+                "file": "Linux/Потоки вывода и консольные команды.md",
                 "mode": "source",
                 "source": false
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "С++/std/Структуры данных/List.md",
+                "file": "Linux/Потоки вывода и консольные команды.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "С++/std/Структуры данных/List.md"
+                "file": "Linux/Потоки вывода и консольные команды.md"
               }
             }
           }
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "С++/std/Структуры данных/List.md",
+                "file": "Linux/Потоки вывода и консольные команды.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,8 +178,9 @@
   },
   "active": "32ff893180224d8c",
   "lastOpenFiles": [
-    "С++/std/Структуры данных/Deque.md",
+    "Linux/vscode/launch.json.md",
     "С++/std/Структуры данных/List.md",
+    "С++/std/Структуры данных/Deque.md",
     "Linux/Потоки вывода и консольные команды.md",
     "С++/0 Основы/5 Итераторы и их категории.md",
     "С++/0 Основы/4 Exeptions.md",
@@ -220,7 +221,6 @@
     "Холсты/Полезные gitlab проекты.canvas",
     "Холсты/cyberforum.canvas",
     "Холсты/C++/vtable.canvas",
-    "git/Команды.md",
     "work/glob_cfg.canvas",
     "work/glob_cfg 1.canvas",
     "00 Исходники/vtable/GS_console.png",
