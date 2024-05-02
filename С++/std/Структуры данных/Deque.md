@@ -1,4 +1,4 @@
-#deque
+#deque #not_complited
 
 https://www.youtube.com/watch?v=8629XIx3WQY&list=PLmSYEYYGhnBviRYhIDty-CSTDS16a3whl&index=29
 
