@@ -119,3 +119,68 @@ int main()
 
 }
 ```
+
+## Сравнение скорости выполнения
+
+```C++
+#include <algorithm>
+#include <iostream>
+#include <iterator>
+#include <random>
+#include <vector>
+#include <chrono>
+
+typedef std::chrono::high_resolution_clock Clock;
+
+/*
+g++ -O3 -std=c++2a -Wall -Wextra -Wpedantic -Wconversion lambda_comporation.cpp -o lc.out && ./lc.out
+*/
+
+int main() {
+
+    std::random_device rd;
+    std::mt19937 mt(rd());
+    std::uniform_int_distribution<> dis(0, 100);
+ 
+    std::vector<int> v1(1000000000);
+    std::generate(v1.begin(), v1.end(), std::bind(dis, std::ref(mt)));
+
+    size_t count{0};
+
+//  -------------------------------------------------------------------------  //
+    auto t1 = Clock::now();
+    for (auto& it : v1) {
+        if ( it > 20 && it < 50 ) {
+            ++count;
+        }
+    }
+    auto t2 = Clock::now();
+
+    // 287127994 217'605'496 for
+    std::cout << count << " ";
+    std::cout << std::chrono::duration_cast<std::chrono::nanoseconds>(t2 - t1).count()
+              << " for" << std::endl;
+//  -------------------------------------------------------------------------  //
+
+    t1 = Clock::now();
+    count = std::count_if(v1.begin(), v1.end(), [](int i) { return i > 20 && i < 50; } );
+    t2 = Clock::now();
+
+    // 287127994 236'528'866 lambda int
+    std::cout << count << " ";
+    std::cout << std::chrono::duration_cast<std::chrono::nanoseconds>(t2 - t1).count()
+              << " lambda int" << std::endl;
+
+//  -------------------------------------------------------------------------  //
+
+    t1 = Clock::now();
+    count = std::count_if(v1.begin(), v1.end(), [](int& i) { return i > 20 && i < 50; } );
+    t2 = Clock::now();
+
+    // 287127994 237'925'078 lambda int&
+    std::cout << count << " ";
+    std::cout << std::chrono::duration_cast<std::chrono::nanoseconds>(t2 - t1).count()
+              << " lambda int&" << std::endl;
+//  -------------------------------------------------------------------------  //
+}
+```

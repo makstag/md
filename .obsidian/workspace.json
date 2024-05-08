@@ -13,25 +13,62 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "С++/0 Основы/Углубленное представление/Арифметика.md",
+                "file": "Подготовка.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "5ad1a030f92ea7b7",
+            "id": "c7fd16e37aaa964e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/git/markdown.md",
+                "file": "Linux/markdown.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "da80ba310a49835c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "С++/0 Основы/Углубленное представление/Типы данных и Арифметика.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "24485f0b6f178563",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "С++/0 Основы/Углубленное представление/Типы данных и Арифметика.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "53b8daf6d4926a13",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Подготовка.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -82,7 +119,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 506.5
+    "width": 346.5
   },
   "right": {
     "id": "3c24f02499b103ac",
@@ -99,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "С++/0 Основы/Углубленное представление/Арифметика.md",
+                "file": "С++/0 Основы/Углубленное представление/Типы данных и Арифметика.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -111,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "С++/0 Основы/Углубленное представление/Арифметика.md"
+                "file": "С++/0 Основы/Углубленное представление/Типы данных и Арифметика.md"
               }
             }
           }
@@ -128,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "С++/0 Основы/Углубленное представление/Арифметика.md",
+                "file": "С++/0 Основы/Углубленное представление/Типы данных и Арифметика.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,38 +212,38 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f89307f2877eb740",
+  "active": "24485f0b6f178563",
   "lastOpenFiles": [
-    "С++/0 Основы/3 Кастование.md",
-    "С++/0 Основы/Углубленное представление/Арифметика.md",
-    "С++/0 Основы/00 Введение.md",
-    "Excalidraw/Drawing 2024-05-02 10.42.49.excalidraw.md",
+    "Подготовка.md",
     "разные ссылки.md",
-    "Linux/git/markdown.md",
+    "С++/0 Основы/Углубленное представление/Типы данных и Арифметика.md",
+    "Linux/markdown.md",
+    "Холсты/cyberforum.canvas",
+    "С++/0 Основы/5 lambda.md",
+    "С++/0 Основы/0 Классы/5 RTTI и Vtable.md",
+    "Linux/gdb valgrind/Отладка.md",
+    "MFTI_lectures.md",
+    "С++/0 Основы/2 Итераторы/0 Итераторы и их категории.md",
+    "С++/std/Структуры данных/Vector.md",
+    "С++/std/Структуры данных/List.md",
+    "С++/std/Структуры данных/0 Структуры данных.md",
+    "С++/std/Наивные реализации/std optional.md",
+    "С++/0 Основы/4 Exeptions.md",
+    "С++/0 Основы/3 Кастование.md",
+    "С++/0 Основы/2 Функции, Структуры данных.md",
+    "С++/0 Основы/1 Указатели, Ссылки.md",
+    "С++/0 Основы/0 Переменные, Операторы, Квалификаторы.md",
+    "С++/0 Основы/00 Введение.md",
+    "С++/0 Основы/2 Итераторы/1 iterators, const- reserse-iterators.md",
+    "Excalidraw/Drawing 2024-05-02 10.42.49.excalidraw.md",
     "С++/0 Основы/2 Итераторы/2 input output iterators.md",
     "С++/std/Структуры данных/Deque.md",
     "С++/std/Структуры данных/Unrodered_map.md",
-    "Linux/gdb valgrind/Отладка.md",
-    "С++/0 Основы/0 Переменные, Операторы, Квалификаторы.md",
     "С++/std/Структуры данных/Map.md",
-    "С++/std/Структуры данных/List.md",
-    "С++/std/Структуры данных/0 Структуры данных.md",
-    "С++/0 Основы/4 Exeptions.md",
-    "С++/0 Основы/2 Функции, Структуры данных.md",
-    "С++/0 Основы/1 Указатели, Ссылки.md",
-    "buffer.md",
-    "С++/std/Структуры данных/Vector.md",
-    "00 Исходники/Excalidraw/Drawing 2024-05-02 10.38.56.excalidraw.md",
     "Excalidraw",
     "00 Исходники/drawing",
     "Холсты/Подготовка.canvas",
     "00 Исходники/Excalidraw",
-    "С++/0 Основы/2 Итераторы/3 back insert iterator.md",
-    "С++/0 Основы/2 Итераторы/0 Итераторы и их категории.md",
-    "С++/0 Основы/0 Классы/4 Полиморфизм и виртуальные функции.md",
-    "С++/std/Наивные реализации/std optional.md",
-    "С++/0 Основы/2 Итераторы/1 iterators, const- reserse-iterators.md",
-    "С++/0 Основы/1 Шаблоны/2 Fold expression, CRTR, Expression templates.md",
     "С++/0 Основы/2 Итераторы",
     "С++/Многоточность",
     "С++/std/Структуры данных",
@@ -218,7 +255,6 @@
     "С++/0 Основы/Углубленное представление",
     "Холсты/Полезные онлайн отладчики.canvas",
     "Холсты/Полезные gitlab проекты.canvas",
-    "Холсты/cyberforum.canvas",
     "Холсты/C++/vtable.canvas",
     "work/glob_cfg.canvas",
     "work/glob_cfg 1.canvas",

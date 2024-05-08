@@ -4,5 +4,11 @@
   "newFileLocation": "current",
   "attachmentFolderPath": "00 Исходники",
   "spellcheck": false,
-  "livePreview": true
+  "livePreview": true,
+  "pdfExportSettings": {
+    "pageSize": "Tabloid",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }
