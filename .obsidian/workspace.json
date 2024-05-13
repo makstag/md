@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "С++/0 Основы/Углубленное представление/Типы данных и Арифметика.md",
+                "file": "С++/Многоточность/thread.md",
                 "mode": "source",
                 "source": false
               }
@@ -119,7 +119,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.5
+    "width": 595.5
   },
   "right": {
     "id": "3c24f02499b103ac",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "С++/0 Основы/Углубленное представление/Типы данных и Арифметика.md",
+                "file": "С++/Многоточность/thread.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "С++/0 Основы/Углубленное представление/Типы данных и Арифметика.md"
+                "file": "С++/Многоточность/thread.md"
               }
             }
           }
@@ -165,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "С++/0 Основы/Углубленное представление/Типы данных и Арифметика.md",
+                "file": "С++/Многоточность/thread.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,20 +203,23 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Меню быстрого перехода": false,
-      "graph:Граф": false,
-      "canvas:Создать новый холст": false,
-      "daily-notes:Сегодняшняя заметка": false,
-      "templates:Вставить шаблон": false,
-      "command-palette:Открыть палитру команд": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "24485f0b6f178563",
   "lastOpenFiles": [
+    "Linux/Потоки вывода и консольные команды.md",
     "Подготовка.md",
-    "разные ссылки.md",
     "С++/0 Основы/Углубленное представление/Типы данных и Арифметика.md",
+    "Холсты/Подготовка.canvas",
+    "С++/Многоточность/thread.md",
+    "разные ссылки.md",
     "Linux/markdown.md",
     "Холсты/cyberforum.canvas",
     "С++/0 Основы/5 lambda.md",
@@ -238,11 +241,8 @@
     "Excalidraw/Drawing 2024-05-02 10.42.49.excalidraw.md",
     "С++/0 Основы/2 Итераторы/2 input output iterators.md",
     "С++/std/Структуры данных/Deque.md",
-    "С++/std/Структуры данных/Unrodered_map.md",
-    "С++/std/Структуры данных/Map.md",
     "Excalidraw",
     "00 Исходники/drawing",
-    "Холсты/Подготовка.canvas",
     "00 Исходники/Excalidraw",
     "С++/0 Основы/2 Итераторы",
     "С++/Многоточность",
