@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f89307f2877eb740",
+            "id": "4bbdf3a6b44da6e7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,55 +20,31 @@
             }
           },
           {
-            "id": "c7fd16e37aaa964e",
+            "id": "3ede95de1c600cef",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/markdown.md",
+                "file": "С++/0 Основы/0 Переменные, Операторы, Квалификаторы.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "da80ba310a49835c",
+            "id": "9ebf0131826eda5d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "С++/0 Основы/Углубленное представление/Типы данных и Арифметика.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "24485f0b6f178563",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "С++/Многоточность/thread.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "53b8daf6d4926a13",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Подготовка.md",
+                "file": "С++/0 Основы/Углубленное представление/Оператор switch.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -119,7 +95,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 595.5
+    "width": 595.5,
+    "collapsed": true
   },
   "right": {
     "id": "3c24f02499b103ac",
@@ -136,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "С++/Многоточность/thread.md",
+                "file": "С++/0 Основы/Углубленное представление/Оператор switch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "С++/Многоточность/thread.md"
+                "file": "С++/0 Основы/Углубленное представление/Оператор switch.md"
               }
             }
           }
@@ -165,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "С++/Многоточность/thread.md",
+                "file": "С++/0 Основы/Углубленное представление/Оператор switch.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,44 +180,47 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "24485f0b6f178563",
+  "active": "9ebf0131826eda5d",
   "lastOpenFiles": [
-    "Linux/Потоки вывода и консольные команды.md",
     "Подготовка.md",
+    "С++/0 Основы/Углубленное представление/Оператор switch.md",
+    "С++/0 Основы/0 Переменные, Операторы, Квалификаторы.md",
     "С++/0 Основы/Углубленное представление/Типы данных и Арифметика.md",
-    "Холсты/Подготовка.canvas",
-    "С++/Многоточность/thread.md",
-    "разные ссылки.md",
-    "Linux/markdown.md",
-    "Холсты/cyberforum.canvas",
-    "С++/0 Основы/5 lambda.md",
-    "С++/0 Основы/0 Классы/5 RTTI и Vtable.md",
+    "Linux/vscode/launch.json.md",
     "Linux/gdb valgrind/Отладка.md",
+    "Linux/markdown.md",
+    "С++/0 Основы/0 Классы/5 RTTI и Vtable.md",
+    "С++/0 Основы/0 Классы/4 Полиморфизм и виртуальные функции.md",
+    "С++/0 Основы/3 Кастование.md",
+    "Linux/Профайлер бедного человека/Профайлер бедного человека.md",
+    "С++/FAQ.md",
+    "Linux/git/submodule.md",
+    "Linux/git/Команды.md",
+    "С++/Многоточность/КВ.md",
+    "С++/0 Основы/Углубленное представление/cin cout cerr.md",
+    "Linux/Профайлер бедного человека",
+    "Холсты/cyberforum.canvas",
+    "С++/std/Структуры данных/Map.md",
+    "Сторонее/pvs.md",
+    "С++/0 Основы/5 lambda.md",
+    "Холсты/Подготовка.canvas",
+    "разные ссылки.md",
+    "С++/std/Структуры данных/0 Структуры данных.md",
+    "С++/std/Структуры данных/Deque.md",
+    "С++/Многоточность/Untitled Diagram.svg",
     "MFTI_lectures.md",
     "С++/0 Основы/2 Итераторы/0 Итераторы и их категории.md",
     "С++/std/Структуры данных/Vector.md",
     "С++/std/Структуры данных/List.md",
-    "С++/std/Структуры данных/0 Структуры данных.md",
-    "С++/std/Наивные реализации/std optional.md",
-    "С++/0 Основы/4 Exeptions.md",
-    "С++/0 Основы/3 Кастование.md",
-    "С++/0 Основы/2 Функции, Структуры данных.md",
-    "С++/0 Основы/1 Указатели, Ссылки.md",
-    "С++/0 Основы/0 Переменные, Операторы, Квалификаторы.md",
-    "С++/0 Основы/00 Введение.md",
-    "С++/0 Основы/2 Итераторы/1 iterators, const- reserse-iterators.md",
-    "Excalidraw/Drawing 2024-05-02 10.42.49.excalidraw.md",
-    "С++/0 Основы/2 Итераторы/2 input output iterators.md",
-    "С++/std/Структуры данных/Deque.md",
     "Excalidraw",
     "00 Исходники/drawing",
     "00 Исходники/Excalidraw",
@@ -252,7 +232,6 @@
     "00 Исходники/exeption.png",
     "exeption.png",
     "С++/Идиомы",
-    "С++/0 Основы/Углубленное представление",
     "Холсты/Полезные онлайн отладчики.canvas",
     "Холсты/Полезные gitlab проекты.canvas",
     "Холсты/C++/vtable.canvas",
@@ -265,7 +244,6 @@
     "00 Исходники/vtable/V2.png",
     "00 Исходники/vtable/V1.png",
     "00 Исходники/vtable/NV_onabase_console.png",
-    "00 Исходники/vtable/NV_onebase_console.png",
     "Без названия 1.canvas"
   ]
 }

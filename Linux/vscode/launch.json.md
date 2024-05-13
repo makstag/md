@@ -1,6 +1,6 @@
 #vscode #debug #отладка #конфиг
 
-```
+```json
 {
   "version": "0.2.0",
   "configurations": [

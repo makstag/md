@@ -51,11 +51,11 @@ class map {
 // из-за этого приходится делать лишнее копирование
 // и дальше будем работать с ссылкой на временную копию, а не
 // реальным объектом
-for (const pair<int std::string>& p : m){
+for (const pair<int, std::string>& p : m){
 }
 
 // ОК, лишнего копирования нет
-for (const pair<const int std::string>& p : m){
+for (const pair<const int, std::string>& p : m){
 }
 
 // ОК, лишнего копирования нет
