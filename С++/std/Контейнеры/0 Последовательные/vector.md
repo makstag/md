@@ -1,16 +1,19 @@
 #vector #not_complited
+[cppreference vector](https://en.cppreference.com/w/cpp/container/vector)
+[metanit vector](https://metanit.com/cpp/tutorial/7.2.php)
 
-Vector является динамическим массивом и его данные хранятся в динамической памяти, поэтому sizeof(vector) - 24 байта на x64. На стеке хранится только следующее:
+> Vector является динамическим массивом и его данные хранятся в динамической памяти, поэтому sizeof(vector) - 24 байта на x64. На стеке хранится только следующее:
     • _M_start - начало выделенной памяти;
     • _M_finish - последний вставленный элемент;
     • _M_end_of_storage - конец выделенной памяти.
-Иногда (в stl из visual studio) на стеке также будет храниться аллокатор.
+> Иногда (в stl из visual studio) на стеке также будет храниться аллокатор.
 
+> [!WARNING]
 > В vector при добавления элемента в конец указатели на элементы, а также ссылки и итераторы инвалидируются
 
 ***
+## Наивная реализация вектора
 
-Наивная реализация:
 ```C++
 #include <iostream>
 
@@ -97,7 +100,9 @@ int main() {
 }
 ```
 
-Тестирую placmant new:
+***
+## Тестирую placement new
+#placementnew
 ```C++
 #include <iostream>
 #include <vector> 

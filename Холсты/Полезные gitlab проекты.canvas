@@ -1,8 +1,11 @@
 {
 	"nodes":[
-		{"id":"380fee9c803eaabc","x":-640,"y":-460,"width":400,"height":400,"type":"link","url":"https://github.com/Nekrolm/ubbook.git"},
-		{"id":"b30fa4f6d29dc52e","x":-640,"y":0,"width":400,"height":400,"type":"link","url":"https://github.com/ttroy50/cmake-examples.git"},
-		{"id":"16713854f35f6435","x":-180,"y":-460,"width":400,"height":400,"type":"link","url":"https://github.com/Jollu8/C-INTERVIEW-QUESTIONS.git"}
+		{"id":"380fee9c803eaabc","type":"link","url":"https://github.com/Nekrolm/ubbook.git","x":-640,"y":-460,"width":400,"height":400},
+		{"id":"b30fa4f6d29dc52e","type":"link","url":"https://github.com/ttroy50/cmake-examples.git","x":-640,"y":0,"width":400,"height":400},
+		{"id":"44c90595720cd0fc","x":-180,"y":-460,"width":400,"height":400,"type":"link","url":"https://github.com/freeacetone/BoostAsioBookRussian"},
+		{"id":"b7efda4b65c68cf3","x":-180,"y":0,"width":400,"height":400,"type":"link","url":"https://gitlab.com/Lipovsky/concurrency-course.git"},
+		{"id":"d1215bb792f83f73","x":280,"y":-460,"width":400,"height":400,"type":"link","url":"https://github.com/tilir/benchmarks"},
+		{"id":"b8846349a7c5365a","x":280,"y":0,"width":400,"height":400,"type":"link","url":"https://github.com/tilir/cpp-masters"}
 	],
 	"edges":[]
 }

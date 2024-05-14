@@ -1,5 +1,8 @@
 #optional
 
+[cppreference optional](https://en.cppreference.com/w/cpp/utility/optional)
+[habr optional](https://habr.com/ru/articles/372103/)
+
 наивная реализация optional:
 ```C++
 // начиная с C++17
@@ -27,7 +30,7 @@ public:
 		return reinterpter_cast<T&>(*value);
 	}
 	T& value_or(T& other) {
-		return initialized ? reinterpter_cast<T&>(*value) : over;
+		return initialized ? reinterpter_cast<T&>(*value) : other;
 	}
 };
 

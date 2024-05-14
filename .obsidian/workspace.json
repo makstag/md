@@ -20,7 +20,7 @@
             }
           },
           {
-            "id": "9ebf0131826eda5d",
+            "id": "4d49fafd65dbad0f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,22 +32,30 @@
             }
           },
           {
-            "id": "a33df8fc0c3dd8e5",
+            "id": "f2889baad52da65a",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Холсты/Подготовка.canvas",
-                "viewState": {
-                  "x": 1584.1179161017762,
-                  "y": 1226.401798141477,
-                  "zoom": -1.7683008438847523
-                }
+                "file": "С++/std/Контейнеры/0 Последовательные/array.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "91545d655b085e19",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "С++/std/Контейнеры/0 Последовательные/vector.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -115,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Холсты/Подготовка.canvas",
+                "file": "Подготовка.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Холсты/Подготовка.canvas"
+                "file": "Подготовка.md"
               }
             }
           }
@@ -144,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Холсты/Подготовка.canvas",
+                "file": "Подготовка.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,18 +199,33 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a33df8fc0c3dd8e5",
+  "active": "4bbdf3a6b44da6e7",
   "lastOpenFiles": [
     "С++/std/Контейнеры/0 Структуры данных.md",
     "С++/std/Контейнеры/0 Последовательные/array.md",
-    "Подготовка.md",
-    "Холсты/Подготовка.canvas",
-    "С++/std/Контейнеры/0 Последовательные/forvard_list.md",
-    "С++/std/Контейнеры/0 Последовательные/deque.md",
     "С++/std/Контейнеры/0 Последовательные/vector.md",
+    "Подготовка.md",
+    "С++/std/Контейнеры/0 Последовательные/deque.md",
+    "00 Исходники/containers/deque.png",
+    "00 Исходники/containers/deque.svg",
+    "00 Исходники/containers/methods pic.png",
+    "00 Исходники/containers/Последовательные контейнеры.png",
+    "Холсты/Подготовка.canvas",
+    "С++/FAQ.md",
     "С++/std/Контейнеры/0 Последовательные/list.md",
-    "С++/Многоточность/КВ.md",
+    "С++/std/Контейнеры/0 Последовательные/forvard_list.md",
+    "С++/0 Основы/Углубленное представление/Типы данных и Арифметика.md",
+    "С++/std/Контейнеры/pics/iterator invalidation.png",
+    "С++/std/Контейнеры/pics/methods.canvas",
+    "00 Исходники/Без названия",
+    "Excalidraw/Drawing 2024-05-02 10.42.49.excalidraw.md",
+    "С++/std/Контейнеры/pics/methods.png",
+    "С++/Идиомы/Другое.md",
+    "Холсты/Полезные gitlab проекты.canvas",
+    "Холсты/cyberforum.canvas",
     "С++/std/Наивные реализации/std optional.md",
+    "Холсты/Полезные онлайн отладчики.canvas",
+    "С++/Многоточность/КВ.md",
     "С++/0 Основы/2 Итераторы/3 back insert iterator.md",
     "С++/0 Основы/2 Итераторы/2 input output iterators.md",
     "С++/0 Основы/2 Итераторы/0 Итераторы и их категории.md",
@@ -210,9 +233,7 @@
     "С++/std/Контейнеры/1 Адаптеры",
     "С++/std/Контейнеры/2 Ассоциативные",
     "С++/std/Контейнеры/0 Последовательные",
-    "С++/std/Контейнеры/pics/iterator invalidation.png",
     "С++/0 Основы/0 Переменные, Операторы, Квалификаторы.md",
-    "00 Исходники/containers/Последовательные контейнеры.png",
     "00 Исходники/hqdefault.webp",
     "00 Исходники/forvard_list.png",
     "00 Исходники/deque.png",
@@ -220,28 +241,16 @@
     "С++/0 Основы/2 Итераторы/1 iterators, const- reserse-iterators.md",
     "С++/std/Контейнеры/3 Неупорядоченные/unrodered_map.md",
     "С++/std/Контейнеры/2 Ассоциативные/map.md",
-    "С++/std/Контейнеры/pics/methods.png",
     "С++/std/Контейнеры/pics",
     "00 Исходники/containers",
     "С++/0 Основы/Углубленное представление/Оператор switch.md",
-    "С++/0 Основы/Углубленное представление/Типы данных и Арифметика.md",
     "Linux/vscode/launch.json.md",
     "Linux/gdb valgrind/Отладка.md",
     "Linux/markdown.md",
     "С++/0 Основы/0 Классы/5 RTTI и Vtable.md",
-    "С++/0 Основы/0 Классы/4 Полиморфизм и виртуальные функции.md",
-    "С++/0 Основы/3 Кастование.md",
-    "Linux/Профайлер бедного человека/Профайлер бедного человека.md",
     "Linux/Профайлер бедного человека",
-    "Холсты/cyberforum.canvas",
-    "С++/Многоточность/Untitled Diagram.svg",
     "Excalidraw",
     "00 Исходники/drawing",
-    "00 Исходники/Excalidraw",
-    "00 Исходники/exeption.png",
-    "exeption.png",
-    "Холсты/Полезные онлайн отладчики.canvas",
-    "Холсты/Полезные gitlab проекты.canvas",
     "Холсты/C++/vtable.canvas",
     "work/glob_cfg.canvas",
     "work/glob_cfg 1.canvas",

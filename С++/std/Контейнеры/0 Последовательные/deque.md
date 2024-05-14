@@ -4,6 +4,8 @@ https://www.youtube.com/watch?v=8629XIx3WQY&list=PLmSYEYYGhnBviRYhIDty-CSTDS16a3
 
 https://www.youtube.com/watch?v=N2-hjzXqZ_Y&t=2026s
 
+![[deque.png]]
+
 Отличие std::deque от std::vector:
  - умеет делать pushfront и popfront
  - не инвалидирует указатели и ссылки при добавлении чего-то
