@@ -20,26 +20,29 @@
             }
           },
           {
-            "id": "3ede95de1c600cef",
+            "id": "9ebf0131826eda5d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "С++/0 Основы/0 Переменные, Операторы, Квалификаторы.md",
+                "file": "С++/std/Контейнеры/0 Структуры данных.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "9ebf0131826eda5d",
+            "id": "a33df8fc0c3dd8e5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "С++/0 Основы/Углубленное представление/Оператор switch.md",
-                "mode": "source",
-                "source": false
+                "file": "Холсты/Подготовка.canvas",
+                "viewState": {
+                  "x": 1584.1179161017762,
+                  "y": 1226.401798141477,
+                  "zoom": -1.7683008438847523
+                }
               }
             }
           }
@@ -95,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 595.5,
-    "collapsed": true
+    "width": 513.5
   },
   "right": {
     "id": "3c24f02499b103ac",
@@ -113,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "С++/0 Основы/Углубленное представление/Оператор switch.md",
+                "file": "Холсты/Подготовка.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "С++/0 Основы/Углубленное представление/Оператор switch.md"
+                "file": "Холсты/Подготовка.canvas"
               }
             }
           }
@@ -142,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "С++/0 Основы/Углубленное представление/Оператор switch.md",
+                "file": "Холсты/Подготовка.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,11 +191,39 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9ebf0131826eda5d",
+  "active": "a33df8fc0c3dd8e5",
   "lastOpenFiles": [
+    "С++/std/Контейнеры/0 Структуры данных.md",
+    "С++/std/Контейнеры/0 Последовательные/array.md",
     "Подготовка.md",
-    "С++/0 Основы/Углубленное представление/Оператор switch.md",
+    "Холсты/Подготовка.canvas",
+    "С++/std/Контейнеры/0 Последовательные/forvard_list.md",
+    "С++/std/Контейнеры/0 Последовательные/deque.md",
+    "С++/std/Контейнеры/0 Последовательные/vector.md",
+    "С++/std/Контейнеры/0 Последовательные/list.md",
+    "С++/Многоточность/КВ.md",
+    "С++/std/Наивные реализации/std optional.md",
+    "С++/0 Основы/2 Итераторы/3 back insert iterator.md",
+    "С++/0 Основы/2 Итераторы/2 input output iterators.md",
+    "С++/0 Основы/2 Итераторы/0 Итераторы и их категории.md",
+    "С++/std/Контейнеры/3 Неупорядоченные",
+    "С++/std/Контейнеры/1 Адаптеры",
+    "С++/std/Контейнеры/2 Ассоциативные",
+    "С++/std/Контейнеры/0 Последовательные",
+    "С++/std/Контейнеры/pics/iterator invalidation.png",
     "С++/0 Основы/0 Переменные, Операторы, Квалификаторы.md",
+    "00 Исходники/containers/Последовательные контейнеры.png",
+    "00 Исходники/hqdefault.webp",
+    "00 Исходники/forvard_list.png",
+    "00 Исходники/deque.png",
+    "00 Исходники/array.png",
+    "С++/0 Основы/2 Итераторы/1 iterators, const- reserse-iterators.md",
+    "С++/std/Контейнеры/3 Неупорядоченные/unrodered_map.md",
+    "С++/std/Контейнеры/2 Ассоциативные/map.md",
+    "С++/std/Контейнеры/pics/methods.png",
+    "С++/std/Контейнеры/pics",
+    "00 Исходники/containers",
+    "С++/0 Основы/Углубленное представление/Оператор switch.md",
     "С++/0 Основы/Углубленное представление/Типы данных и Арифметика.md",
     "Linux/vscode/launch.json.md",
     "Linux/gdb valgrind/Отладка.md",
@@ -202,48 +232,19 @@
     "С++/0 Основы/0 Классы/4 Полиморфизм и виртуальные функции.md",
     "С++/0 Основы/3 Кастование.md",
     "Linux/Профайлер бедного человека/Профайлер бедного человека.md",
-    "С++/FAQ.md",
-    "Linux/git/submodule.md",
-    "Linux/git/Команды.md",
-    "С++/Многоточность/КВ.md",
-    "С++/0 Основы/Углубленное представление/cin cout cerr.md",
     "Linux/Профайлер бедного человека",
     "Холсты/cyberforum.canvas",
-    "С++/std/Структуры данных/Map.md",
-    "Сторонее/pvs.md",
-    "С++/0 Основы/5 lambda.md",
-    "Холсты/Подготовка.canvas",
-    "разные ссылки.md",
-    "С++/std/Структуры данных/0 Структуры данных.md",
-    "С++/std/Структуры данных/Deque.md",
     "С++/Многоточность/Untitled Diagram.svg",
-    "MFTI_lectures.md",
-    "С++/0 Основы/2 Итераторы/0 Итераторы и их категории.md",
-    "С++/std/Структуры данных/Vector.md",
-    "С++/std/Структуры данных/List.md",
     "Excalidraw",
     "00 Исходники/drawing",
     "00 Исходники/Excalidraw",
-    "С++/0 Основы/2 Итераторы",
-    "С++/Многоточность",
-    "С++/std/Структуры данных",
-    "С++/std",
-    "Linux",
     "00 Исходники/exeption.png",
     "exeption.png",
-    "С++/Идиомы",
     "Холсты/Полезные онлайн отладчики.canvas",
     "Холсты/Полезные gitlab проекты.canvas",
     "Холсты/C++/vtable.canvas",
     "work/glob_cfg.canvas",
     "work/glob_cfg 1.canvas",
-    "00 Исходники/vtable/GS_console.png",
-    "00 Исходники/vtable/V2_console.png",
-    "00 Исходники/vtable/NV_twobases_console.png",
-    "00 Исходники/vtable/NV_twobases.png",
-    "00 Исходники/vtable/V2.png",
-    "00 Исходники/vtable/V1.png",
-    "00 Исходники/vtable/NV_onabase_console.png",
     "Без названия 1.canvas"
   ]
 }
