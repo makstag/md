@@ -11,14 +11,23 @@
             "id": "4bbdf3a6b44da6e7",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Холсты/Полезные gitlab проекты.canvas",
-                "viewState": {
-                  "x": 20,
-                  "y": -30,
-                  "zoom": 0
-                }
+                "file": "С++/Многоточность/atomic.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e6acdbe01a3ed3eb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "С++/0 Основы/Углубленное представление/Типы данных и Арифметика.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -28,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "С++/std/Контейнеры/0 Структуры данных.md",
+                "file": "разные ссылки.md",
                 "mode": "source",
                 "source": false
               }
@@ -52,13 +61,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "С++/std/Контейнеры/0 Последовательные/vector.md",
+                "file": "С++/Идиомы/RAII.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "b95691e0de089c87",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Холсты/Подготовка.canvas",
+                "viewState": {
+                  "x": -887.8973278748184,
+                  "y": 1661.87109948796,
+                  "zoom": -0.5368141789450853
+                }
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -77,11 +102,21 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "вычислени",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "821ee4c3f78bb3ec",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
                 "sortOrder": "alphabetical"
               }
             }
@@ -93,19 +128,9 @@
               "type": "bookmarks",
               "state": {}
             }
-          },
-          {
-            "id": "c556e42a9ab6e631",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -126,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Холсты/Полезные gitlab проекты.canvas",
+                "file": "Холсты/Подготовка.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Холсты/Полезные gitlab проекты.canvas"
+                "file": "Холсты/Подготовка.canvas"
               }
             }
           }
@@ -155,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Холсты/Полезные gitlab проекты.canvas",
+                "file": "Холсты/Подготовка.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,45 +227,48 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4bbdf3a6b44da6e7",
+  "active": "b95691e0de089c87",
   "lastOpenFiles": [
+    "Подготовка.md",
+    "yandex.md",
+    "С++/Многоточность/atomic.md",
+    "Untitled Diagram.svg",
+    "разные ссылки.md",
+    "С++/0 Основы/Углубленное представление/Типы данных и Арифметика.md",
+    "С++/0 Основы/1 Указатели, Ссылки.md",
+    "С++/0 Основы/00 Введение.md",
+    "С++/0 Основы/0 Переменные, Операторы, Квалификаторы.md",
     "Холсты/Подготовка.canvas",
+    "С++/Многоточность/КВ.md",
+    "С++/std/Контейнеры/0 Последовательные/array.md",
+    "С++/Идиомы/RAII.md",
+    "С++/Идиомы/Другое.md",
+    "С++/std/Контейнеры/0 Последовательные/vector.md",
+    "С++/std/Контейнеры/0 Структуры данных.md",
+    "С++/Многоточность/Липовский.md",
+    "Липовский",
+    "Холсты/Полезные gitlab проекты.canvas",
     "С++/0 Основы/0 Классы/1 Методы , Перегрузка операторов.md",
     "С++/0 Основы/0 Классы/0 Классы и Структуры.md",
     "С++/0 Основы/0 Классы/2 Наследование.md",
     "С++/0 Основы/1 Шаблоны/0 Шаблоны.md",
-    "Подготовка.md",
     "С++/FAQ.md",
-    "С++/std/Контейнеры/0 Структуры данных.md",
     "С++/0 Основы/2 Функции, Структуры данных.md",
-    "С++/std/Контейнеры/0 Последовательные/array.md",
-    "С++/0 Основы/Углубленное представление/Типы данных и Арифметика.md",
     "С++/0 Основы/3 Кастование.md",
     "С++/0 Основы/2 Итераторы/0 Итераторы и их категории.md",
-    "разные ссылки.md",
-    "С++/Многоточность/atomic.md",
     "С++/std/Контейнеры/pics/methods.canvas",
     "С++/std/Контейнеры/pics/iterator invalidation.png",
     "Холсты/cyberforum.canvas",
     "С++/0 Основы/4 Exeptions.md",
-    "Холсты/Полезные gitlab проекты.canvas",
-    "С++/std/Контейнеры/0 Последовательные/vector.md",
     "С++/std/Контейнеры/0 Последовательные/deque.md",
     "00 Исходники/containers/deque.png",
     "00 Исходники/containers/deque.svg",
     "00 Исходники/containers/methods pic.png",
     "00 Исходники/containers/Последовательные контейнеры.png",
     "С++/std/Контейнеры/0 Последовательные/list.md",
-    "С++/std/Контейнеры/0 Последовательные/forvard_list.md",
     "00 Исходники/Без названия",
-    "Excalidraw/Drawing 2024-05-02 10.42.49.excalidraw.md",
     "С++/std/Контейнеры/pics/methods.png",
-    "С++/Идиомы/Другое.md",
-    "С++/std/Наивные реализации/std optional.md",
     "Холсты/Полезные онлайн отладчики.canvas",
-    "С++/Многоточность/КВ.md",
-    "С++/0 Основы/2 Итераторы/3 back insert iterator.md",
-    "С++/0 Основы/2 Итераторы/2 input output iterators.md",
     "С++/std/Контейнеры/3 Неупорядоченные",
     "С++/std/Контейнеры/1 Адаптеры",
     "С++/std/Контейнеры/2 Ассоциативные",
@@ -248,12 +276,10 @@
     "00 Исходники/hqdefault.webp",
     "00 Исходники/forvard_list.png",
     "00 Исходники/deque.png",
-    "00 Исходники/array.png",
     "С++/std/Контейнеры/pics",
     "00 Исходники/containers",
     "Linux/Профайлер бедного человека",
     "Excalidraw",
-    "00 Исходники/drawing",
     "Холсты/C++/vtable.canvas",
     "work/glob_cfg.canvas",
     "work/glob_cfg 1.canvas",
