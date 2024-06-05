@@ -61,24 +61,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "С++/Идиомы/RAII.md",
+                "file": "Linux/markdown.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b95691e0de089c87",
+            "id": "93e8cf4d4443af8c",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Холсты/Подготовка.canvas",
-                "viewState": {
-                  "x": -887.8973278748184,
-                  "y": 1661.87109948796,
-                  "zoom": -0.5368141789450853
-                }
+                "file": "MFTI_lectures.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -151,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Холсты/Подготовка.canvas",
+                "file": "MFTI_lectures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Холсты/Подготовка.canvas"
+                "file": "MFTI_lectures.md"
               }
             }
           }
@@ -180,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Холсты/Подготовка.canvas",
+                "file": "MFTI_lectures.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -227,45 +224,44 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b95691e0de089c87",
+  "active": "93e8cf4d4443af8c",
   "lastOpenFiles": [
+    "Linux/zshrc_setting.md",
+    "Untitled Diagram.svg",
+    "Linux/markdown.md",
+    "Linux/gcc build && clang-format, clang-tidy.md",
+    "Linux/multicast_network.md",
+    "Linux/ubuntu_commands.md",
     "Подготовка.md",
     "yandex.md",
-    "С++/Многоточность/atomic.md",
-    "Untitled Diagram.svg",
-    "разные ссылки.md",
-    "С++/0 Основы/Углубленное представление/Типы данных и Арифметика.md",
-    "С++/0 Основы/1 Указатели, Ссылки.md",
-    "С++/0 Основы/00 Введение.md",
-    "С++/0 Основы/0 Переменные, Операторы, Квалификаторы.md",
     "Холсты/Подготовка.canvas",
-    "С++/Многоточность/КВ.md",
-    "С++/std/Контейнеры/0 Последовательные/array.md",
     "С++/Идиомы/RAII.md",
+    "Excalidraw/Drawing 2024-05-02 10.42.49.excalidraw.md",
+    "С++/std/Контейнеры/0 Последовательные/array.md",
+    "С++/0 Основы/0 Переменные, Операторы, Квалификаторы.md",
+    "С++/0 Основы/00 Введение.md",
+    "С++/0 Основы/1 Указатели, Ссылки.md",
+    "С++/0 Основы/Углубленное представление/Типы данных и Арифметика.md",
+    "С++/0 Основы/1 Шаблоны/2 Fold expression, CRTR, Expression templates.md",
+    "С++/0 Основы/1 Шаблоны/1 Dependent names,  Variadic templates, Type Traits.md",
+    "С++/0 Основы/1 Шаблоны/0 Шаблоны.md",
+    "С++/0 Основы/0 Классы/1 Методы , Перегрузка операторов.md",
+    "С++/0 Основы/0 Классы/2 Наследование.md",
+    "С++/Многоточность/atomic.md",
+    "разные ссылки.md",
+    "С++/Многоточность/КВ.md",
     "С++/Идиомы/Другое.md",
     "С++/std/Контейнеры/0 Последовательные/vector.md",
     "С++/std/Контейнеры/0 Структуры данных.md",
-    "С++/Многоточность/Липовский.md",
     "Липовский",
     "Холсты/Полезные gitlab проекты.canvas",
-    "С++/0 Основы/0 Классы/1 Методы , Перегрузка операторов.md",
-    "С++/0 Основы/0 Классы/0 Классы и Структуры.md",
-    "С++/0 Основы/0 Классы/2 Наследование.md",
-    "С++/0 Основы/1 Шаблоны/0 Шаблоны.md",
-    "С++/FAQ.md",
-    "С++/0 Основы/2 Функции, Структуры данных.md",
-    "С++/0 Основы/3 Кастование.md",
-    "С++/0 Основы/2 Итераторы/0 Итераторы и их категории.md",
     "С++/std/Контейнеры/pics/methods.canvas",
     "С++/std/Контейнеры/pics/iterator invalidation.png",
     "Холсты/cyberforum.canvas",
-    "С++/0 Основы/4 Exeptions.md",
-    "С++/std/Контейнеры/0 Последовательные/deque.md",
     "00 Исходники/containers/deque.png",
     "00 Исходники/containers/deque.svg",
     "00 Исходники/containers/methods pic.png",
     "00 Исходники/containers/Последовательные контейнеры.png",
-    "С++/std/Контейнеры/0 Последовательные/list.md",
     "00 Исходники/Без названия",
     "С++/std/Контейнеры/pics/methods.png",
     "Холсты/Полезные онлайн отладчики.canvas",
