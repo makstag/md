@@ -11,11 +11,14 @@
             "id": "4bbdf3a6b44da6e7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "С++/Многоточность/atomic.md",
-                "mode": "source",
-                "source": false
+                "file": "Холсты/Подготовка.canvas",
+                "viewState": {
+                  "x": 632.2415614029854,
+                  "y": 1285.7679611571352,
+                  "zoom": -1.3368141789450854
+                }
               }
             }
           },
@@ -25,31 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "С++/0 Основы/Углубленное представление/Типы данных и Арифметика.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4d49fafd65dbad0f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "разные ссылки.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f2889baad52da65a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "С++/std/Контейнеры/0 Последовательные/array.md",
+                "file": "С++/0 Основы/1 Шаблоны/1 Dependent names,  Variadic templates, Type Traits.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,26 +40,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/markdown.md",
+                "file": "С++/std/Контейнеры/0 Последовательные/vector.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "93e8cf4d4443af8c",
+            "id": "591816fd02a7603d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MFTI_lectures.md",
+                "file": "С++/std/Контейнеры/Аллокаторы.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "typename",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -148,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MFTI_lectures.md",
+                "file": "Холсты/Подготовка.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MFTI_lectures.md"
+                "file": "Холсты/Подготовка.canvas"
               }
             }
           }
@@ -177,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MFTI_lectures.md",
+                "file": "Холсты/Подготовка.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -224,35 +202,35 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "93e8cf4d4443af8c",
+  "active": "4bbdf3a6b44da6e7",
   "lastOpenFiles": [
-    "Linux/zshrc_setting.md",
-    "Untitled Diagram.svg",
-    "Linux/markdown.md",
-    "Linux/gcc build && clang-format, clang-tidy.md",
+    "С++/std/Контейнеры/Аллокаторы.md",
+    "Холсты/Подготовка.canvas",
+    "С++/0 Основы/1 Шаблоны/1 Dependent names,  Variadic templates, Type Traits.md",
+    "С++/std/Контейнеры/0 Последовательные/vector.md",
+    "С++/Многоточность/atomic.md",
+    "Подготовка.md",
+    "С++/0 Основы/1 Шаблоны/0 Шаблоны.md",
+    "С++/0 Основы/2 Итераторы/0 Итераторы и их категории.md",
+    "yandex.md",
+    "С++/0 Основы/0 Переменные, Операторы, Квалификаторы.md",
+    "С++/0 Основы/0 Классы/1 Методы , Перегрузка операторов.md",
+    "С++/0 Основы/1 Указатели, Ссылки.md",
+    "С++/0 Основы/Углубленное представление/Типы данных и Арифметика.md",
     "Linux/multicast_network.md",
     "Linux/ubuntu_commands.md",
-    "Подготовка.md",
-    "yandex.md",
-    "Холсты/Подготовка.canvas",
+    "Linux/zshrc_setting.md",
+    "С++/std/Контейнеры/0 Структуры данных.md",
+    "С++/std/Контейнеры/0 Последовательные/deque.md",
+    "С++/std/Контейнеры/0 Последовательные/forvard_list.md",
+    "С++/std/Контейнеры/0 Последовательные/list.md",
+    "MFTI_lectures.md",
+    "Linux/markdown.md",
+    "Untitled Diagram.svg",
+    "Linux/gcc build && clang-format, clang-tidy.md",
     "С++/Идиомы/RAII.md",
     "Excalidraw/Drawing 2024-05-02 10.42.49.excalidraw.md",
     "С++/std/Контейнеры/0 Последовательные/array.md",
-    "С++/0 Основы/0 Переменные, Операторы, Квалификаторы.md",
-    "С++/0 Основы/00 Введение.md",
-    "С++/0 Основы/1 Указатели, Ссылки.md",
-    "С++/0 Основы/Углубленное представление/Типы данных и Арифметика.md",
-    "С++/0 Основы/1 Шаблоны/2 Fold expression, CRTR, Expression templates.md",
-    "С++/0 Основы/1 Шаблоны/1 Dependent names,  Variadic templates, Type Traits.md",
-    "С++/0 Основы/1 Шаблоны/0 Шаблоны.md",
-    "С++/0 Основы/0 Классы/1 Методы , Перегрузка операторов.md",
-    "С++/0 Основы/0 Классы/2 Наследование.md",
-    "С++/Многоточность/atomic.md",
-    "разные ссылки.md",
-    "С++/Многоточность/КВ.md",
-    "С++/Идиомы/Другое.md",
-    "С++/std/Контейнеры/0 Последовательные/vector.md",
-    "С++/std/Контейнеры/0 Структуры данных.md",
     "Липовский",
     "Холсты/Полезные gitlab проекты.canvas",
     "С++/std/Контейнеры/pics/methods.canvas",

@@ -17,11 +17,12 @@
 ```C++
 #include <iostream>
 
-template <typename T>
+template <typename T, typename Alloc = std::allocator<T>>
 class vector {
 	T* arr_;
 	size_t sz_;
 	size_t cap_;
+	Alloc alloc_;
 
 public:
 	void reserve(size_t newcap) {
@@ -29,26 +30,33 @@ public:
 			return;
 		}
 
-		T* newarr = reinterpret_cast<T*>(new char[newcap * sizeof(T)]);
+		// T* newarr = reinterpret_cast<T*>(new char[newcap * sizeof(T)]);
+		T* newarr = alloc_.allocate(newcap);
 
 		size_t index = 0;
 		try {
 			for (; index < sz; ++index) {
 				// placement new
 				// не запрашивает память, только вызывает конструктор
-				new(newarr + index) T(arr_[index]);
+				// new(newarr + index) T(arr_[index]);
+				alloc_.construct(newarr+index, arr_[index]);
 			}
 		} catch (...) {
 			for (size_t newindex = 0; newindex < index; ++newindex) {
-				(newarr + newindex)->~T();
+				// (newarr + newindex)->~T();
+				alloc_.destroy(newarr+oldindex);
 			}
+			// delete[] reinterpret_cast<char*>(newarr);
+			alloc_.deallocate(newarr, newcap);
 			throw;
 		}
 
 		for (size_t index = 0; index < sz_; ++index) {
-			(arr_ + index)->~T();
+			// (arr_ + index)->~T();
+			alloc_.destroy(arr_+index);
 		}
-		delete[] reinterpret_cast<char*>(arr_);
+		// delete[] reinterpret_cast<char*>(arr_);
+		alloc_.deallocate(arr_, cap_);
 
 		arr_ = newarr;
 		cap_ = newcap;

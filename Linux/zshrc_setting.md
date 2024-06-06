@@ -1,3 +1,4 @@
+#zsh #clang #tidy #format
 ##### Тема
 ```console
 ZSH_THEME="robbyrussell"
