@@ -6,8 +6,8 @@
     • _M_start - начало выделенной памяти;
     • _M_finish - последний вставленный элемент;
     • _M_end_of_storage - конец выделенной памяти.
-> Иногда (в stl из visual studio) на стеке также будет храниться аллокатор.
-
+	• alloc_ - аллокатор (может не занимать места на стеке из-за empty-base optimization)
+	
 > [!WARNING]
 > В vector при добавления элемента в конец указатели на элементы, а также ссылки и итераторы инвалидируются
 
@@ -18,11 +18,14 @@
 #include <iostream>
 
 template <typename T, typename Alloc = std::allocator<T>>
-class vector {
+class vector { // : private Alloc {
+			   // возможно унаследование ради  empty-base optimization
 	T* arr_;
 	size_t sz_;
 	size_t cap_;
 	Alloc alloc_;
+
+	using AllocTraits = std::allocator_traints<Alloc>;
 
 public:
 	void reserve(size_t newcap) {
@@ -31,7 +34,7 @@ public:
 		}
 
 		// T* newarr = reinterpret_cast<T*>(new char[newcap * sizeof(T)]);
-		T* newarr = alloc_.allocate(newcap);
+		T* newarr = AllocTraits::allocate(alloc_, newcap);
 
 		size_t index = 0;
 		try {
@@ -39,24 +42,24 @@ public:
 				// placement new
 				// не запрашивает память, только вызывает конструктор
 				// new(newarr + index) T(arr_[index]);
-				alloc_.construct(newarr+index, arr_[index]);
+				AllocTraits::construct(alloc_, newarr+index, arr_[index]);
 			}
 		} catch (...) {
 			for (size_t newindex = 0; newindex < index; ++newindex) {
 				// (newarr + newindex)->~T();
-				alloc_.destroy(newarr+oldindex);
+				AllocTraits::destroy(alloc_, newarr+oldindex);
 			}
 			// delete[] reinterpret_cast<char*>(newarr);
-			alloc_.deallocate(newarr, newcap);
+			AllocTraits::deallocate(alloc_, newarr, newcap);
 			throw;
 		}
 
 		for (size_t index = 0; index < sz_; ++index) {
 			// (arr_ + index)->~T();
-			alloc_.destroy(arr_+index);
+			AllocTraits::destroy(alloc_, arr_+index);
 		}
 		// delete[] reinterpret_cast<char*>(arr_);
-		alloc_.deallocate(arr_, cap_);
+		AllocTraits::deallocate(alloc_, arr_, cap_);
 
 		arr_ = newarr;
 		cap_ = newcap;
@@ -66,6 +69,40 @@ public:
 		if (sz_ == cap_) {
 			reserve(cap_ > 0 ? cap_ * 2 : 1);
 		}
+	}
+
+	// мы должны старые объекты удалить старым аллокатором, а новые объекты
+	// выделить новым аллокатором, при этом мы все еще должны старые объекты
+	// удалить позже, чем выделим новые
+	vector& operator=(const vector& other) {
+
+		Alloc newalloc =
+			AllocTraints::propagate_on_ontainer_copy_assignmet::value
+			& other.alloc_ : alloc_;
+
+		T* newarr = AllocTraits::allocate(newalloc, other.cap_);
+		size_t i = 0;
+		try {
+			for (; i < other.sz_; ++i) {
+				AllocTraits::construct(newalloc, newarr + i, other[i]);
+			}
+		} catch (...) {
+			for (size_t j = 0; j < i; ++j) {
+				AllocaTraits::destroy(newalloc, newarr + j);
+			}
+			AllocTraits::deallocate(newalloc, newarr, other.cap_);
+			throw;
+		}
+
+		for (size_t i = 0; i < sz_; ++i) {
+			AllocTraints::destroy(alloc_, arr_ + i);
+		}
+		AllocTraints:deallocate(alloc_, arr_, cap_);
+
+		alloc_ = newalloc; // nothrow
+		arr_ = newarr;
+		sz_ = other.sz_;
+		cap_ = other.cap_;
 	}
 }
 
@@ -105,35 +142,5 @@ public:
 int main() {
 	std::vector<bool> v(10);
 	v[5] = true;
-}
-```
-
-***
-## Тестирую placement new
-#placementnew
-```C++
-#include <iostream>
-#include <vector> 
-
-struct Test {
-    Test() {std::cout << "T";}
-    explicit Test(const Test& t) {std::cout << " copy constructor ";}
-    ~Test() {std::cout << "~T";}
-    void operator=(const Test& t) { std::cout << "="; }
-};
- 
-int main()
-{
-	// TT
-    Test* t = new Test[2];
-
-    Test* newarr = reinterpret_cast<Test*>(malloc(sizeof(Test)*2));
-    // copy constructor
-    new(newarr)     Test(t[0]);
-    // copy constructor
-    new(newarr + 1) Test(t[1]);
-
-	// ~T~T
-    delete[] t;
 }
 ```

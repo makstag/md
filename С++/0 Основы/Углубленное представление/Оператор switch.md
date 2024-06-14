@@ -1,4 +1,4 @@
-#switch 
+#operator #switch 
 
 [metanit switch](https://metanit.com/cpp/tutorial/2.17.php)
 [Оригинальная статья](https://www.cyberforum.ru/blogs/18334/blog91.html)

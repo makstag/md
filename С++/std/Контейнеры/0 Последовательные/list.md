@@ -9,8 +9,8 @@ pop_back
 template <typename T>
 class list {
 	struct BaseNode {
-		Node* next;
-		Node* prev;
+		BaseNode* next;
+		BaseNode* prev;
 	}
 	struct Node : BaseNode {
 		T value;
@@ -19,7 +19,7 @@ class list {
 	size_t sz;
 
 public:
-	list(): fakeNode {&fakeNode, &fakeNode}, sz(0) {};
+	list(): fakeNode {&fakeNode, &fakeNode}, sz(0) {}
 
 };
 ```
