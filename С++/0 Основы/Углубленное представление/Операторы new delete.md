@@ -1,13 +1,17 @@
 #operator #new #delete
 
 > [!WARNING]
-> Оператор new состоит из двух частей: первая занимается выделением памяти, а вторая вызовом конструкторов на выделенной памяти и перегрузить можно только первую
+> `new` состоит из двух частей: первая занимается выделением памяти, а вторая вызовом конструкторов на выделенной памяти и перегрузить можно только первую. `delete` сначала вызывает деструкторы объекта (объектов), а затем освобождает память
+
+> [!WARNING]
+> Если нужно просто выделить память (не вызывая конструктор) следует использовать `operator new` вместо `new`
 ## Переопределение операторов new и delete
 
-Наивные реализация
+Наивная реализация
 ```C++
 #include <iostream>
 #include <vector>
+#include <stinrg>
 
 void* operator new(size_t n) {
 	std::cout << n << " bytes allocated\n";
@@ -19,11 +23,26 @@ void operator delete(void* ptr) {
 	free(ptr);
 }
 
+void* operator new[](size_t n) {
+	std::cout << n << " [] bytes allocated\n";
+	return malloc(n);
+}
+
+void operator delete[](void* ptr) {
+	std::cout << "[] deallocated";
+	free(ptr);
+}
+
 int main() {
 	std::vector<int> v;
 	for (itn i = 0; i<50; ++i) {
 		v.push_back(i);
 	}
+
+	std::cout << sizeof(std::string) << '\n';  // 32
+	std::string* ps = new std::string[10];
+	delete[] ps; // "328 [] bytes allocated" - дополнительные 8 байт хранят
+				 // число деструкторов, которые нужно вызвать
 }
 ```
 
