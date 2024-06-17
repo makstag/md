@@ -102,7 +102,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "list(",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -133,7 +133,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 391.5
+    "width": 391.5,
+    "collapsed": true
   },
   "right": {
     "id": "3c24f02499b103ac",
@@ -229,9 +230,9 @@
   "active": "43e640b4c0f5dd81",
   "lastOpenFiles": [
     "С++/std/Контейнеры/Аллокаторы.md",
+    "С++/std/Контейнеры/0 Последовательные/vector.md",
     "С++/0 Основы/Углубленное представление/Операторы new delete.md",
     "С++/0 Основы/Углубленное представление/cin cout cerr.md",
-    "С++/std/Контейнеры/0 Последовательные/vector.md",
     "С++/0 Основы/2 Итераторы/1 iterators, const- reserse-iterators.md",
     "Подготовка.md",
     "С++/0 Основы/Углубленное представление/Типы данных и Арифметика.md",
