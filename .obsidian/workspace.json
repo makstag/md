@@ -15,9 +15,9 @@
               "state": {
                 "file": "Холсты/Подготовка.canvas",
                 "viewState": {
-                  "x": 476.1016565363054,
-                  "y": 1260.1995891120582,
-                  "zoom": -1.3368141789450854
+                  "x": 731.0384506491162,
+                  "y": 1531.0877908543137,
+                  "zoom": -1.2010479524944833
                 }
               }
             }
@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/markdown.md",
+                "file": "Подготовка.md",
                 "mode": "source",
                 "source": false
               }
@@ -40,7 +40,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "С++/0 Основы/2 Итераторы/1 iterators, const- reserse-iterators.md",
+                "file": "Linux/markdown.md",
                 "mode": "source",
                 "source": false
               }
@@ -64,7 +64,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "С++/Углубленное представление/Выравнивания и битовые поля.md",
+                "file": "С++/std/cin cout cerr.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7bc27e47c0b4e2c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "С++/std/move semantics.md",
                 "mode": "source",
                 "source": false
               }
@@ -76,26 +88,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "С++/Углубленное представление/Операторы new delete.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "236ab4bbe6cd584d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "С++/FAQ.md",
+                "file": "С++/Идиомы/Правила 3, 5, 0.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -114,7 +114,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "операторы",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "С++/Углубленное представление/Выравнивания и битовые поля.md",
+                "file": "С++/std/move semantics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "С++/Углубленное представление/Выравнивания и битовые поля.md"
+                "file": "С++/std/move semantics.md"
               }
             }
           }
@@ -192,7 +192,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "С++/Углубленное представление/Выравнивания и битовые поля.md",
+                "file": "С++/std/move semantics.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -230,51 +230,51 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Меню быстрого перехода": false,
-      "graph:Граф": false,
-      "canvas:Создать новый холст": false,
-      "daily-notes:Сегодняшняя заметка": false,
-      "templates:Вставить шаблон": false,
-      "command-palette:Открыть палитру команд": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e50722c8daa1305a",
+  "active": "7bc27e47c0b4e2c5",
   "lastOpenFiles": [
-    "00 Исходники/bitfield.png",
+    "Linux/markdown.md",
+    "С++/std/Итераторы/1 iterators, const- reserse-iterators.md",
+    "С++/std/move semantics.md",
+    "С++/std/cin cout cerr.md",
+    "Подготовка.md",
+    "С++/Идиомы/Правила 3, 5, 0.md",
+    "Холсты/Подготовка.canvas",
+    "С++/Идиомы/00 Другое.md",
+    "С++/0 Основы/0 Классы/0 Классы и Структуры.md",
     "С++/Углубленное представление/Операторы new delete.md",
-    "С++/FAQ.md",
-    "С++/Углубленное представление/Выравнивания и битовые поля.md",
+    "С++/std/Итераторы/3 back insert iterator.md",
+    "С++/std/Итераторы/0 Итераторы и их категории.md",
+    "С++/0 Основы/6 Атрибуты.md",
+    "С++/std/Контейнеры/pics/methods.canvas",
+    "С++/std/Контейнеры/pics/iterator invalidation.png",
+    "С++/Углубленное представление/Типы данных и Арифметика.md",
     "С++/Углубленное представление/Оператор switch.md",
+    "С++/Углубленное представление/Выравнивания и битовые поля.md",
+    "С++/std/Контейнеры/Аллокаторы.md",
+    "00 Исходники/bitfield.png",
+    "С++/FAQ.md",
     "С++/0 Основы/0 Классы/1 Методы , Перегрузка операторов.md",
     "С++/std/Контейнеры/0 Последовательные/vector.md",
-    "С++/std/Контейнеры/Аллокаторы.md",
     "С++/Конспекты/Константин Владимиров.md",
     "С++/Конспекты",
     "С++/0 Основы/Углубленное представление/Операторы new delete.md",
-    "С++/Углубленное представление/Типы данных и Арифметика.md",
-    "С++/Углубленное представление/cin cout cerr.md",
     "С++/Углубленное представление",
-    "Linux/markdown.md",
-    "Подготовка.md",
     "С++/0 Основы/Углубленное представление/cin cout cerr.md",
     "С++/0 Основы/4 Exeptions.md",
     "С++/0 Основы/Углубленное представление/Типы данных и Арифметика.md",
-    "С++/0 Основы/2 Итераторы/0 Итераторы и их категории.md",
-    "С++/0 Основы/2 Итераторы/1 iterators, const- reserse-iterators.md",
-    "С++/0 Основы/2 Итераторы/3 back insert iterator.md",
-    "С++/0 Основы/2 Итераторы/2 input output iterators.md",
-    "С++/0 Основы/0 Классы/4 Полиморфизм и виртуальные функции.md",
-    "С++/0 Основы/0 Классы/3 Множественное наследование.md",
-    "С++/0 Основы/0 Классы/2 Наследование.md",
-    "С++/0 Основы/0 Классы/0 Классы и Структуры.md",
-    "С++/0 Основы/5 lambda.md",
-    "Холсты/Подготовка.canvas",
+    "С++/std/Итераторы/2 input output iterators.md",
     "Untitled Diagram.svg",
     "Липовский",
     "Холсты/Полезные gitlab проекты.canvas",
-    "С++/std/Контейнеры/pics/methods.canvas",
-    "С++/std/Контейнеры/pics/iterator invalidation.png",
     "Холсты/cyberforum.canvas",
     "00 Исходники/containers/deque.png",
     "00 Исходники/containers/deque.svg",
@@ -289,7 +289,6 @@
     "С++/std/Контейнеры/0 Последовательные",
     "00 Исходники/hqdefault.webp",
     "00 Исходники/forvard_list.png",
-    "00 Исходники/deque.png",
     "С++/std/Контейнеры/pics",
     "00 Исходники/containers",
     "Холсты/C++/vtable.canvas",
