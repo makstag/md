@@ -13,7 +13,7 @@
 
 ***
 ## Наивная реализация вектора
-
+#todo доделать push_back()
 ```C++
 #include <iostream>
 
@@ -65,10 +65,19 @@ public:
 		cap_ = newcap;
 	}
 
+	// нужно дописать
 	void push_back(const T& value) {
 		if (sz_ == cap_) {
 			reserve(cap_ > 0 ? cap_ * 2 : 1);
 		}
+	}
+
+	// нужно дописать
+	void push_back(T&& value) {
+	 	if (sz_ == cap_) {
+			reserve(cap_ > 0 ? cap_ * 2 : 1);
+		}
+		new (ptr) T(std::move(value));
 	}
 
 	// мы должны старые объекты удалить старым аллокатором, а новые объекты
