@@ -43,4 +43,3 @@ T&& move (T& x) {
 	 return static_cast<T&&>(x);
  }
 ```
-
