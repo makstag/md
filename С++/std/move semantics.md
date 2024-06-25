@@ -26,6 +26,7 @@ string& operator=(string&& other) {
 
 ***
 ## std::move
+#move 
 
 Если компилятор видит `rvalue` - он вызовет `move` операцию, а если `lvalue` копирующую, но можно принудительно заставить его вызвать move операцию для `lvalue`. Для этого используется функция `std::move` .
 
@@ -42,4 +43,17 @@ template <typename T>
 T&& move (T& x) {
 	 return static_cast<T&&>(x);
  }
+```
+
+***
+## std::forvard
+#forvard
+
+Чтобы иметь возможность передавать аргументы дальше в функции с сохранением вида value по которому мы их приняли, нужно использовать функцию `std::forvard`
+```C++
+void construct(U* ptr, Args&& ... args) {
+	new (ptr) U(std::forvard<Args>(args)...);
+	// '...' здесь просто разварачивает паттерн и означает
+	// std::forvard<1starg>(1starg), std::forvard<2ndarg>(2ndarg), и т.д.
+}
 ```

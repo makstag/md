@@ -31,26 +31,54 @@
 3) `rvalue`-ссылки, как и `const lvalue`-ссылки, умеют продлевать жизнь объекту
 4) `const` для `rvalue`-ссылок работает так же как для обычных (чтобы сделать `move` для `const T&&` придется снять константность через `const_cast`)
 
+> [!WARNING]
+> Если `rvalue`-ссылка `T&&` является типом аргумента в функции, для которой `T` является шаблонным параметром - это все работает по другим правилам. Это сделано для того, что бы таким синтаксисом (`T&&`) можно было принимать как `rvalue` так и `lvalue`. При этом `const T&&` уже не является исключением из правил.
+
+Правила работы для типа аргумента в функции`T&&` (имеет название `forwarding-references` или `universal-references`), для которой `T` является шаблонным параметром:
+1) 
+
+***
+#todo описать что происходит
 ```C++
-int x = 5;
+#include <iostream>
+#include <string>
 
-int&& y = x; // CE
+int main() {
+    {
+    const std::string x = "abc";
+    std::string y = std::move(x); // произойдет copy, а не move
 
-int&& y = 6; // OK
-y = 7; // OK
+    std::cout << x << " " << y << std::endl;
+    y = "abc2";
+    std::cout << x << " " << y << std::endl;
+    }
 
-int&& z = y; // CE, имя переменной всегда lvalue
-int&& z = std::move(y); // OK, std::move возвращает rvalue
-int&& t = static_cast<int&&>(x); // ОК, каст к T&& считается rvalue
-t = 1; // OK, 'x' станет 1
+    {
+    std::string x = "abc";
+    std::string &&y = std::move(x); // будет "abc"
+    std::string &&z = std::move(y); // будет "abc"
 
-z = y;
-int&& r = 1; //
+    std::cout << x << " " << y << " " << z << std::endl;
+    z = "heh";
+    std::cout << x << " " << y << " " << z << std::endl;
+
+    std::string t = std::move(x); // теперь x, y, z - пустые строки
+    std::cout << std::boolalpha << x.empty() << " " << y.empty()
+              << " " << z.empty() << " " << t << std::endl;
+    }
+
+    {
+    int x = 5;
+    // int&& y = x; // CE
+    int&& y = std::move(x); // OK
+    int&& z = std::move(y); // OK, std::move возвращает rvalue
+    int i = std::move(x); // ОК, копирование для тривиальных типов
+    std::cout << x << " " << y << " " << z << " " << i << std::endl;
+    y = 7; // OK
+    std::cout << x << " " << y << " " << z << " " << i << std::endl;
+    }
+}
 ```
-
-
-
-черновик: https://godbolt.org/z/14joMEhKs
 
 > [!INFO]
 > const type&   <- lvalue
@@ -58,4 +86,48 @@ int&& r = 1; //
 > type&& <- rvalue
 > type&& <- std::move <-lvalue
 
-27
+***
+## Ссылочные квалификаторы
+#квалификаторы #reference #qualifiers
+
+Можно сделать перегрузку между rvalue и lvalue объектами (начиная с C++11)
+
+```C++
+stuct S {
+	string str;
+
+	// (1)
+	// можно вызываться как от lvalue, так и от rvalue
+	string getData() const {
+		return str;
+	}
+	// (2)
+	// то же самое, что и (1), можно вызываться как от lvalue так и от rvalue
+	string getData() const & { // приняли this по константной ссылке
+		return str;
+	}
+	// (3)
+	// разрешим вызывать getData ТОЛЬКО для lvalue
+	// т.к. неконстантная lvalue-ссылка не может быть проинициализированна
+	// через rvalue
+	string getData() & {
+		return str;
+	}
+	// (4)
+	// если this - rvalue будет выбрана эта перегрузка
+	string getData() && { // приняли this по rvalue ссылке
+		return std::move(str);
+	}
+};
+
+// lvalue
+S s = S{"abc"};
+s.getData();        // строка str будет создана и скопирована
+
+// rvalue
+S{"cba"}.getData(); // строка будет создана, а затем произойдет move
+```
+
+***
+
+1:00:00

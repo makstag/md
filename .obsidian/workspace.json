@@ -15,8 +15,8 @@
               "state": {
                 "file": "Холсты/Подготовка.canvas",
                 "viewState": {
-                  "x": 771.9658102078274,
-                  "y": 1099.5149420208293,
+                  "x": 567.3141899266607,
+                  "y": 738.1088769710811,
                   "zoom": -0.20104795249448365
                 }
               }
@@ -59,18 +59,6 @@
             }
           },
           {
-            "id": "7bc27e47c0b4e2c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "С++/std/move semantics.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "8cdb7724e4ae7b51",
             "type": "leaf",
             "state": {
@@ -83,19 +71,19 @@
             }
           },
           {
-            "id": "c34dcbf2a12866e3",
+            "id": "7bc27e47c0b4e2c5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "С++/std/Наивные реализации/std swap.md",
+                "file": "С++/std/move semantics.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -146,8 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 391.5,
-    "collapsed": true
+    "width": 391.5
   },
   "right": {
     "id": "3c24f02499b103ac",
@@ -231,24 +218,25 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "8cdb7724e4ae7b51",
   "lastOpenFiles": [
     "С++/std/move semantics.md",
     "С++/0 Основы/7 lvalue rvalue.md",
+    "С++/std/Контейнеры/0 Последовательные/vector.md",
     "С++/std/Наивные реализации/std swap.md",
     "Холсты/Подготовка.canvas",
+    "Подготовка.md",
     "Linux/markdown.md",
     "С++/Углубленное представление/Оператор switch.md",
-    "С++/std/Контейнеры/0 Последовательные/vector.md",
     "С++/0 Основы/6 Атрибуты.md",
     "С++/std/Наивные реализации/std optional.md",
     "С++/std/cin cout cerr.md",
@@ -256,7 +244,6 @@
     "work/glob_cfg.canvas",
     "Сторонее/pvs.md",
     "Холсты/Полезные gitlab проекты.canvas",
-    "Подготовка.md",
     "Linux/gdb valgrind/Отладка.md",
     "Linux/zshrc_setting.md",
     "Linux/ubuntu_commands.md",
