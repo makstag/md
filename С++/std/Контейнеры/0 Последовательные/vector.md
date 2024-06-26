@@ -42,7 +42,12 @@ public:
 				// placement new
 				// не запрашивает память, только вызывает конструктор
 				// new(newarr + index) T(arr_[index]);
-				AllocTraits::construct(alloc_, newarr+index, arr_[index]);
+
+				// тут важно использовать std::move_if_noexcept
+				// если move-конструктор не noexcect - мы не будем
+				// мувать, а будем копировать
+				AllocTraits::construct(alloc_, newarr+index,
+						std::move_if_noexcept(arr_[index]));
 			}
 		} catch (...) {
 			for (size_t newindex = 0; newindex < index; ++newindex) {
@@ -65,19 +70,24 @@ public:
 		cap_ = newcap;
 	}
 
-	// нужно дописать
+	// push_back можно выразить через emplace_back
 	void push_back(const T& value) {
+		emplace_back(value);
+	}
+
+	// push_back можно выразить через emplace_back
+	void push_back(T&& value) {
+		emplace_back(std::move(value));
+	}
+
+	template <typename... Args>
+	void emplace_back(Args&&... args) {
 		if (sz_ == cap_) {
 			reserve(cap_ > 0 ? cap_ * 2 : 1);
 		}
-	}
-
-	// нужно дописать
-	void push_back(T&& value) {
-	 	if (sz_ == cap_) {
-			reserve(cap_ > 0 ? cap_ * 2 : 1);
-		}
-		new (ptr) T(std::move(value));
+		AllocTraits::construct(alloc_, arr_ + sz_,
+				std::forward<Args>(args)...);
+		++sz_;
 	}
 
 	// мы должны старые объекты удалить старым аллокатором, а новые объекты

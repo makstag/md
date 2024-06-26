@@ -1,7 +1,7 @@
 #fold_expression C++17
 
-[c++ reference](https://en.cppreference.com/w/cpp/language/fold)
-
+[cppreference fold expression](https://en.cppreference.com/w/cpp/language/fold)
+#todo 4 вида вывода ...
 ```C++
 #include <iostream>
 #include <type_traits>

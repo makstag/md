@@ -79,8 +79,19 @@ void construct(U* ptr, Args&& ... args) {
 
 Наивная реализация `std::forward`:
 ```C++
+// важно, чтобы forward не умел выводить тип шиблонного параметра неявно
 template <typename T>
-T&& forward(std::remove_reference_t<T>& value) {
+T&& forward(std::remove_reference_t<T>& value) noexcept {
+	return static_cast<T&&>(value);
+}
+
+// перегрузка forward
+// обрабатывается довольно редкий случай, когда мы вызываем std::forward
+// не просто от аргументов, а от результата вызова функции от наших
+// аргументов (который иногда может вернуть rvalue)
+template <typename T>
+T&& forward(std::remove_reference_t<T>&& value) noexcept {
+	static_assert(!std::is_lvalue_reference_v<T>);
 	return static_cast<T&&>(value);
 }
 ```
