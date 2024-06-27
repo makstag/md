@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux Windows/vscode/launch.json.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "34d159aceb5a819f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux Windows/vscode/launch.json.md",
+                "file": "Linux Windows/vscode/Настройка окружения.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,8 +91,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -123,7 +110,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "g",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -150,7 +137,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -247,17 +235,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c343648150d16f0c",
+  "active": "4bbdf3a6b44da6e7",
   "lastOpenFiles": [
-    "Linux Windows/vscode/launch.json.md",
+    "Холсты/Подготовка.canvas",
     "Linux Windows/vscode/Настройка окружения.md",
+    "Linux Windows/vscode/launch.json.md",
     "00 Исходники/vscode/vscode4.png",
     "00 Исходники/vscode/vscode3.png",
     "00 Исходники/vscode/vscode2.png",
     "00 Исходники/vscode/vscode1.png",
     "00 Исходники/vscode",
     "Подготовка.md",
-    "Холсты/Подготовка.canvas",
     "С++/std/Контейнеры/0 Последовательные/vector.md",
     "С++/0 Основы/0 Классы/0 Классы и Структуры.md",
     "С++/std/move and forvard semantics.md",
