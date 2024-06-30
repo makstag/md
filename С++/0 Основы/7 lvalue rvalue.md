@@ -1,7 +1,11 @@
 #lvalue #rvalue
+[habr категории выражений](https://habr.com/ru/articles/441742/)
+
+![[value category.png]]
 
 >[!IMPORTANT]
->lvalue and rvalue are categoty of expressions, not types
+>`lvalue and rvalue are categoty of expressions, not types`
+
 
 > [!INFO]
 > Вид `value` тернарного оператора зависит от других его частей  . Если обе его части `lvalue` - он сам `lvalue`, но если хоть одна из частей `rvalue` - тернарный оператор будет `rvalue`.
@@ -22,6 +26,12 @@
 - `expr++`, `expr--`;
 - `&a`;
 - `,` if rhs is rvalue;
+
+#### xvalue:
+- возвращаемый вызов функции, если возвращаемый тип это `rvalue-ссылка`;
+- `cast-expr`  к `rvalue-ссылке`;
+- rvalue.x;
+- rvalue->x;
 
 ***
 ## Rvalue-ссылки и их свойства
