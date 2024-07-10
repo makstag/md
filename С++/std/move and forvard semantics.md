@@ -79,7 +79,7 @@ void construct(U* ptr, Args&& ... args) {
 
 Наивная реализация `std::forward`:
 ```C++
-// важно, чтобы forward не умел выводить тип шиблонного параметра неявно
+// важно, чтобы forward не умел выводить тип шаблонного параметра неявно
 template <typename T>
 T&& forward(std::remove_reference_t<T>& value) noexcept {
 	return static_cast<T&&>(value);
