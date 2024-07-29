@@ -13,7 +13,7 @@
 
 ***
 ## Наивная реализация вектора
-#todo доделать push_back()
+
 ```C++
 #include <iostream>
 
@@ -80,15 +80,24 @@ public:
 		emplace_back(std::move(value));
 	}
 
-	template <typename... Args>
-	void emplace_back(Args&&... args) {
-		if (sz_ == cap_) {
-			reserve(cap_ > 0 ? cap_ * 2 : 1);
-		}
-		AllocTraits::construct(alloc_, arr_ + sz_,
-				std::forward<Args>(args)...);
-		++sz_;
+	void emplace_back(auto&&... args) {
+	    if (sz_ == cap_) {
+	        reserve(cap_ > 0 ? cap_ * 2 : 1);
+	    }
+	    AllocTraits::construct(alloc_, arr_ + sz_,
+	            std::forward<decltype(args)>(args)...);
+	    ++sz_;
 	}
+
+//	template <typename... Args>
+//	void emplace_back(Args&&... args) {
+//		if (sz_ == cap_) {
+//			reserve(cap_ > 0 ? cap_ * 2 : 1);
+//		}
+//		AllocTraits::construct(alloc_, arr_ + sz_,
+//				std::forward<Args>(args)...);
+//		++sz_;
+//	}
 
 	// мы должны старые объекты удалить старым аллокатором, а новые объекты
 	// выделить новым аллокатором, при этом мы все еще должны старые объекты

@@ -56,7 +56,19 @@
             }
           },
           {
-            "id": "cdcb9398a4baff64",
+            "id": "4bbdf3a6b44da6e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "С++/std/Контейнеры/0 Последовательные/vector.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0df3356a2c155a2f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -68,19 +80,31 @@
             }
           },
           {
-            "id": "4bbdf3a6b44da6e7",
+            "id": "16d692141beb65e7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "С++/std/move and forvard semantics.md",
+                "file": "1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d0d54bdbe2bbf37a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "С++/std/Наивные реализации/std optional.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -99,7 +123,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "decltype(auto)",
+                "query": "decltype",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -126,7 +150,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -147,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "С++/0 Основы/8 auto, decltype,  decltype(auto).md",
+                "file": "1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "С++/0 Основы/8 auto, decltype,  decltype(auto).md"
+                "file": "1.md"
               }
             }
           }
@@ -176,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "С++/0 Основы/8 auto, decltype,  decltype(auto).md",
+                "file": "1.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,21 +248,24 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cdcb9398a4baff64",
+  "active": "16d692141beb65e7",
   "lastOpenFiles": [
+    "С++/std/Наивные реализации/std optional.md",
+    "1.md",
+    "С++/0 Основы/8 auto, decltype,  decltype(auto).md",
+    "С++/std/Контейнеры/0 Последовательные/vector.md",
+    "С++/0 Основы/7 lvalue rvalue.md",
+    "С++/std/move and forvard semantics.md",
     "С++/0 Основы/1 Шаблоны/2 Fold expression, CRTR, Expression templates.md",
     "Linux Windows/gcc build && clang-format, clang-tidy.md",
     "Linux Windows/zshrc_setting.md",
-    "С++/std/move and forvard semantics.md",
     "С++/Идиомы и правила/Expired values. Copy elision. Return value optimization..md",
     "С++/Идиомы и правила/00 Другое.md",
-    "С++/0 Основы/8 auto, decltype,  decltype(auto).md",
     "С++/0 Основы/0 Классы/1 Методы , Перегрузка операторов.md",
     "С++/0 Основы/0 Классы/0 Классы и Структуры.md",
     "С++/0 Основы/1 Указатели, Ссылки.md",
     "С++/0 Основы/5 lambda.md",
     "Холсты/Подготовка.canvas",
-    "С++/0 Основы/7 lvalue rvalue.md",
     "Подготовка.md",
     "Linux Windows/markdown.md",
     "00 Исходники/value category.png",
@@ -252,7 +280,6 @@
     "Linux Windows/Профайлер бедного человека",
     "Linux Windows/vscode",
     "Linux Windows/ubuntu_commands.md",
-    "Linux Windows/multicast_network.md",
     "Linux Windows/git",
     "Linux Windows/gdb valgrind",
     "Linux Windows",
@@ -261,8 +288,6 @@
     "00 Исходники/vscode/vscode2.png",
     "00 Исходники/vscode/vscode1.png",
     "00 Исходники/vscode",
-    "С++/std/Наивные реализации/std swap.md",
-    "С++/Углубленное представление/Оператор switch.md",
     "work/glob_cfg.canvas",
     "Холсты/Полезные gitlab проекты.canvas",
     "С++/std/Контейнеры/pics/methods.canvas",
