@@ -1,6 +1,7 @@
 #vector #not_complited
 [cppreference vector](https://en.cppreference.com/w/cpp/container/vector)
 [metanit vector](https://metanit.com/cpp/tutorial/7.2.php)
+[deduction guides for std::vector](https://en.cppreference.com/w/cpp/container/vector/deduction_guides)
 
 > Vector является динамическим массивом и его данные хранятся в динамической памяти, поэтому sizeof(vector) - 24 байта на x64. На стеке хранится только следующее:
     • _M_start - начало выделенной памяти;

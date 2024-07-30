@@ -71,7 +71,7 @@ void f(T x) {}
 [decltype cppreference](https://en.cppreference.com/w/cpp/language/decltype)
 [auto, decltype(auto) cppreference](https://en.cppreference.com/w/cpp/language/auto)
 
-`decltype` разным образом работает с `entity` и `expression`.  `decltype(auto)` говорит компилятору вывести тип самостоятельно, но как если бы мы применяли `decltype` к этому выражению, а не просто как `auto` (например не отбрасывает амперсанды). Следующие примеры кода выполняют одно и то же:
+`decltype` разным образом работает с `entity` и `expression`.  `decltype(auto)` говорит компилятору вывести тип самостоятельно, но как если бы мы применяли `decltype` к этому выражению, а не просто как `auto` (в точности дает тип, который был после `return` не отбрасывая амперсанды). Следующие примеры кода выполняют одно и то же:
 ```C++
 template <typename Container>
 auto getElement(Container& cont, size_t index)
