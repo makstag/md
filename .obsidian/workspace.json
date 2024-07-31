@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "С++/0 Основы/8 auto, decltype,  decltype(auto).md",
+                "file": "С++/0 Основы/0 Переменные, Операторы, Квалификаторы.md",
                 "mode": "source",
                 "source": false
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "emplace_back",
+                "query": "агрегатная",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -181,7 +181,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -202,7 +203,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "С++/0 Основы/8 auto, decltype,  decltype(auto).md",
+                "file": "1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -214,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "С++/0 Основы/8 auto, decltype,  decltype(auto).md"
+                "file": "1.md"
               }
             }
           }
@@ -231,7 +232,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "С++/0 Основы/8 auto, decltype,  decltype(auto).md",
+                "file": "1.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -278,15 +279,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4bbdf3a6b44da6e7",
+  "active": "821ee4c3f78bb3ec",
   "lastOpenFiles": [
-    "1.md",
+    "С++/0 Основы/0 Переменные, Операторы, Квалификаторы.md",
     "С++/std/Контейнеры/0 Последовательные/vector.md",
+    "С++/std/Итераторы/1 iterators, const- reserse-iterators.md",
+    "1.md",
+    "С++/std/Наивные реализации/std optional.md",
     "С++/0 Основы/8 auto, decltype,  decltype(auto).md",
     "С++/0 Основы/1 Шаблоны/3 CTAD - class template argument deduction.md",
     "MFTI_lectures.md",
     "yandex.md",
-    "С++/std/Наивные реализации/std optional.md",
     "С++/0 Основы/1 Шаблоны/2 Fold expression, CRTR, Expression templates.md",
     "С++/0 Основы/7 lvalue rvalue.md",
     "С++/std/move and forvard semantics.md",
@@ -306,8 +309,6 @@
     "Linux Windows/vscode/Настройка окружения.md",
     "С++/std/Контейнеры/Аллокаторы.md",
     "Linux Windows/Профайлер бедного человека/Профайлер бедного человека.md",
-    "Linux Windows/git/Настройки.md",
-    "Linux Windows/git/Команды.md",
     "Linux Windows/Профайлер бедного человека",
     "Linux Windows/vscode",
     "Linux Windows/git",
