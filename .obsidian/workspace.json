@@ -6,19 +6,8 @@
       {
         "id": "24fbd5fef581bbe7",
         "type": "tabs",
+        "dimension": 40.98440545808967,
         "children": [
-          {
-            "id": "e6acdbe01a3ed3eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Подготовка.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
           {
             "id": "7bc27e47c0b4e2c5",
             "type": "leaf",
@@ -61,18 +50,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "С++/std/Наивные реализации/std optional.md",
+                "file": "С++/0 Основы/1 Шаблоны/3 CTAD - class template argument deduction.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "973445e3df03c4c6",
         "type": "tabs",
+        "dimension": 59.01559454191033,
         "children": [
           {
             "id": "27710cbadd0c40e9",
@@ -130,7 +120,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "агрегатная",
+                "query": "CTAD",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -257,17 +247,19 @@
   },
   "active": "6ef5983a2ef64ba8",
   "lastOpenFiles": [
+    "С++/0 Основы/1 Шаблоны/3 CTAD - class template argument deduction.md",
+    "Нужно перенести.md",
     "С++/std/Наивные реализации/std optional.md",
+    "Linux Windows/vscode/Настройка окружения.md",
+    "Холсты/Подготовка.canvas",
+    "Подготовка.md",
     "С++/0 Основы/7 lvalue rvalue.md",
     "С++/0 Основы/0 Переменные, Операторы, Квалификаторы.md",
-    "Нужно перенести.md",
     "разные ссылки.md",
-    "Подготовка.md",
     "MFTI_lectures.md",
     "С++/std/Контейнеры/0 Последовательные/vector.md",
     "С++/std/Итераторы/1 iterators, const- reserse-iterators.md",
     "С++/0 Основы/8 auto, decltype,  decltype(auto).md",
-    "С++/0 Основы/1 Шаблоны/3 CTAD - class template argument deduction.md",
     "yandex.md",
     "С++/0 Основы/1 Шаблоны/2 Fold expression, CRTR, Expression templates.md",
     "С++/std/move and forvard semantics.md",
@@ -279,12 +271,9 @@
     "С++/0 Основы/0 Классы/0 Классы и Структуры.md",
     "С++/0 Основы/1 Указатели, Ссылки.md",
     "С++/0 Основы/5 lambda.md",
-    "Холсты/Подготовка.canvas",
     "Linux Windows/markdown.md",
     "00 Исходники/value category.png",
     "С++/find right place.md",
-    "Linux Windows/vscode/Настройка окружения.md",
-    "С++/std/Контейнеры/Аллокаторы.md",
     "Linux Windows/Профайлер бедного человека",
     "Linux Windows/vscode",
     "Linux Windows/git",
