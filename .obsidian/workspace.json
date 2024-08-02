@@ -56,18 +56,6 @@
             }
           },
           {
-            "id": "4bbdf3a6b44da6e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "С++/0 Основы/0 Переменные, Операторы, Квалификаторы.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "d0d54bdbe2bbf37a",
             "type": "leaf",
             "state": {
@@ -86,18 +74,6 @@
         "id": "973445e3df03c4c6",
         "type": "tabs",
         "children": [
-          {
-            "id": "16d692141beb65e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
           {
             "id": "27710cbadd0c40e9",
             "type": "leaf",
@@ -128,14 +104,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.md",
+                "file": "Нужно перенести.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -203,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1.md",
+                "file": "Нужно перенести.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1.md"
+                "file": "Нужно перенести.md"
               }
             }
           }
@@ -232,7 +208,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.md",
+                "file": "Нужно перенести.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -279,19 +255,21 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "821ee4c3f78bb3ec",
+  "active": "6ef5983a2ef64ba8",
   "lastOpenFiles": [
+    "С++/std/Наивные реализации/std optional.md",
+    "С++/0 Основы/7 lvalue rvalue.md",
     "С++/0 Основы/0 Переменные, Операторы, Квалификаторы.md",
+    "Нужно перенести.md",
+    "разные ссылки.md",
+    "Подготовка.md",
+    "MFTI_lectures.md",
     "С++/std/Контейнеры/0 Последовательные/vector.md",
     "С++/std/Итераторы/1 iterators, const- reserse-iterators.md",
-    "1.md",
-    "С++/std/Наивные реализации/std optional.md",
     "С++/0 Основы/8 auto, decltype,  decltype(auto).md",
     "С++/0 Основы/1 Шаблоны/3 CTAD - class template argument deduction.md",
-    "MFTI_lectures.md",
     "yandex.md",
     "С++/0 Основы/1 Шаблоны/2 Fold expression, CRTR, Expression templates.md",
-    "С++/0 Основы/7 lvalue rvalue.md",
     "С++/std/move and forvard semantics.md",
     "Linux Windows/gcc build && clang-format, clang-tidy.md",
     "Linux Windows/zshrc_setting.md",
@@ -302,13 +280,11 @@
     "С++/0 Основы/1 Указатели, Ссылки.md",
     "С++/0 Основы/5 lambda.md",
     "Холсты/Подготовка.canvas",
-    "Подготовка.md",
     "Linux Windows/markdown.md",
     "00 Исходники/value category.png",
     "С++/find right place.md",
     "Linux Windows/vscode/Настройка окружения.md",
     "С++/std/Контейнеры/Аллокаторы.md",
-    "Linux Windows/Профайлер бедного человека/Профайлер бедного человека.md",
     "Linux Windows/Профайлер бедного человека",
     "Linux Windows/vscode",
     "Linux Windows/git",
