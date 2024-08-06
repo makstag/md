@@ -24,7 +24,7 @@ void print(Types&&... types) {
 int main() {}
 ```
 
-## CRTR (Curiously Recurring Template Pattern)
+## CRTP (Curiously Recurring Template Pattern)
 [wiki](https://en.wikipedia.org/wiki/Curiously_recurring_template_pattern)
 
 > В Base нельзя объявлять объекты типа Derrived, но можно указатели или ссылки на Derrived

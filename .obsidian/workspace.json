@@ -9,24 +9,12 @@
         "dimension": 40.98440545808967,
         "children": [
           {
-            "id": "7bc27e47c0b4e2c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux Windows/vscode/Настройка окружения.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "8cdb7724e4ae7b51",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "С++/Идиомы и правила/Expired values. Copy elision. Return value optimization..md",
+                "file": "С++/std/Наивные реализации/std optional.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,8 +44,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "973445e3df03c4c6",
@@ -120,7 +107,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "CTAD",
+                "query": "this",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -236,22 +223,26 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "6ef5983a2ef64ba8",
   "lastOpenFiles": [
-    "С++/0 Основы/1 Шаблоны/3 CTAD - class template argument deduction.md",
+    "Холсты/Подготовка.canvas",
     "Нужно перенести.md",
     "С++/std/Наивные реализации/std optional.md",
+    "С++/0 Основы/1 Шаблоны/3 CTAD - class template argument deduction.md",
+    "С++/0 Основы/1 Шаблоны/2 Fold expression, CRTR, Expression templates.md",
+    "С++/0 Основы/8 auto, decltype,  decltype(auto).md",
+    "С++/0 Основы/1 Шаблоны/1 Dependent names,  Variadic templates, Type Traits.md",
+    "С++/Идиомы и правила/Expired values. Copy elision. Return value optimization..md",
     "Linux Windows/vscode/Настройка окружения.md",
-    "Холсты/Подготовка.canvas",
     "Подготовка.md",
     "С++/0 Основы/7 lvalue rvalue.md",
     "С++/0 Основы/0 Переменные, Операторы, Квалификаторы.md",
@@ -259,13 +250,10 @@
     "MFTI_lectures.md",
     "С++/std/Контейнеры/0 Последовательные/vector.md",
     "С++/std/Итераторы/1 iterators, const- reserse-iterators.md",
-    "С++/0 Основы/8 auto, decltype,  decltype(auto).md",
     "yandex.md",
-    "С++/0 Основы/1 Шаблоны/2 Fold expression, CRTR, Expression templates.md",
     "С++/std/move and forvard semantics.md",
     "Linux Windows/gcc build && clang-format, clang-tidy.md",
     "Linux Windows/zshrc_setting.md",
-    "С++/Идиомы и правила/Expired values. Copy elision. Return value optimization..md",
     "С++/Идиомы и правила/00 Другое.md",
     "С++/0 Основы/0 Классы/1 Методы , Перегрузка операторов.md",
     "С++/0 Основы/0 Классы/0 Классы и Структуры.md",
@@ -273,7 +261,6 @@
     "С++/0 Основы/5 lambda.md",
     "Linux Windows/markdown.md",
     "00 Исходники/value category.png",
-    "С++/find right place.md",
     "Linux Windows/Профайлер бедного человека",
     "Linux Windows/vscode",
     "Linux Windows/git",

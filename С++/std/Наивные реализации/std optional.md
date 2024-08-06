@@ -78,3 +78,7 @@ decltype(auto) value(this auto&& self) {
     return reinterpret_cast<DesiredType>(*self.value);
 }
 ```
+
+> [!INFO]
+> `Deducing this` может заменить собой `CRTP`
+
