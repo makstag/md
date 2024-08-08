@@ -59,7 +59,13 @@ const T&& operator*() const && {
 }
 ```
 
+***
+
+> [!INFO]
+> `Deducing this` может заменить собой `CRTP`
+
 Начиная с C++23 появился [Deducing this](https://habr.com/ru/articles/722668/) и теперь можно явно передавать `this` и избегать дублирования кода:
+ 
 ```C++
 // Deducing this, since c++23
 template <typename Self>
@@ -79,6 +85,4 @@ decltype(auto) value(this auto&& self) {
 }
 ```
 
-> [!INFO]
-> `Deducing this` может заменить собой `CRTP`
 

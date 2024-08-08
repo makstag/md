@@ -9,36 +9,12 @@
         "dimension": 40.98440545808967,
         "children": [
           {
-            "id": "8cdb7724e4ae7b51",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "С++/std/Наивные реализации/std optional.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "7f1f4d2c66b3003f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "С++/0 Основы/7 lvalue rvalue.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d0d54bdbe2bbf37a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "С++/0 Основы/1 Шаблоны/3 CTAD - class template argument deduction.md",
+                "file": "С++/std/Наивные реализации/std optional.md",
                 "mode": "source",
                 "source": false
               }
@@ -57,38 +33,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "С++/0 Основы/1 Шаблоны/2 Fold expression, CRTR, Expression templates.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e6d57c50221c1f1a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "С++/0 Основы/1 Шаблоны/3 CTAD - class template argument deduction.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6ef5983a2ef64ba8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Нужно перенести.md",
+                "file": "С++/0 Основы/1 Шаблоны/4 SFINAE.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +58,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "this",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -156,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Нужно перенести.md",
+                "file": "С++/std/Наивные реализации/std optional.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Нужно перенести.md"
+                "file": "С++/std/Наивные реализации/std optional.md"
               }
             }
           }
@@ -185,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Нужно перенести.md",
+                "file": "С++/std/Наивные реализации/std optional.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,19 +183,21 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6ef5983a2ef64ba8",
+  "active": "7f1f4d2c66b3003f",
   "lastOpenFiles": [
     "Холсты/Подготовка.canvas",
-    "Нужно перенести.md",
-    "С++/std/Наивные реализации/std optional.md",
     "С++/0 Основы/1 Шаблоны/3 CTAD - class template argument deduction.md",
+    "С++/0 Основы/1 Шаблоны/4 SFINAE.md",
+    "С++/std/Наивные реализации/std optional.md",
+    "С++/0 Основы/7 lvalue rvalue.md",
     "С++/0 Основы/1 Шаблоны/2 Fold expression, CRTR, Expression templates.md",
+    "С++/0 Основы/1 Шаблоны/0 Шаблоны.md",
+    "Нужно перенести.md",
     "С++/0 Основы/8 auto, decltype,  decltype(auto).md",
     "С++/0 Основы/1 Шаблоны/1 Dependent names,  Variadic templates, Type Traits.md",
     "С++/Идиомы и правила/Expired values. Copy elision. Return value optimization..md",
     "Linux Windows/vscode/Настройка окружения.md",
     "Подготовка.md",
-    "С++/0 Основы/7 lvalue rvalue.md",
     "С++/0 Основы/0 Переменные, Операторы, Квалификаторы.md",
     "разные ссылки.md",
     "MFTI_lectures.md",
@@ -258,8 +211,6 @@
     "С++/0 Основы/0 Классы/1 Методы , Перегрузка операторов.md",
     "С++/0 Основы/0 Классы/0 Классы и Структуры.md",
     "С++/0 Основы/1 Указатели, Ссылки.md",
-    "С++/0 Основы/5 lambda.md",
-    "Linux Windows/markdown.md",
     "00 Исходники/value category.png",
     "Linux Windows/Профайлер бедного человека",
     "Linux Windows/vscode",
