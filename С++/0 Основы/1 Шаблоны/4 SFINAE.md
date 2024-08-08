@@ -78,3 +78,29 @@ auto f(T) {
 	std::cout << "2\n";
 }
 ```
+
+---
+## Реализация метафункций используя SFINAE
+#has_method_construct #declval
+
+Проверка наличия методов в классе:
+```C++
+// Имеется проблема в том, чтобы получить объекты типа T и Args
+// но при этом у них может не быть конструктора по умолчанию.
+// Решить эту проблему можно при помощи std::declval()
+namespace detail {
+	template <typename T, typename... Args>
+	std::true_type test( decltype(T().construct(Args()...))* );
+
+	template <typename...>
+	std::false_type test(...);
+}
+
+template <typename T, typename... Args>
+struct has_method_construct: decltype(detail::test<T, Args...>(nullptr)) {};
+
+template <typename T, typename... Args>
+constexpr bool has_method_construct_v = has_method_construct<T, Args...>::value;
+```
+
+18:00
