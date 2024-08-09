@@ -6,24 +6,42 @@
       {
         "id": "24fbd5fef581bbe7",
         "type": "tabs",
+        "dimension": 34.21052631578947,
         "children": [
           {
             "id": "27710cbadd0c40e9",
             "type": "leaf",
             "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Холсты/Подготовка.canvas",
+                "viewState": {
+                  "x": 281.6567558745081,
+                  "y": 1290.4958048030799,
+                  "zoom": -1.1779900027985657
+                }
+              }
+            }
+          },
+          {
+            "id": "15f595ad5f654715",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "С++/0 Основы/1 Шаблоны/4 SFINAE.md",
+                "file": "С++/0 Основы/1 Шаблоны/3 CTAD - class template argument deduction.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "5231ba6fc5edbc6c",
         "type": "tabs",
+        "dimension": 65.78947368421053,
         "children": [
           {
             "id": "7f1f4d2c66b3003f",
@@ -31,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Нужно перенести.md",
+                "file": "С++/0 Основы/1 Шаблоны/4 SFINAE.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +74,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "conjunction",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Нужно перенести.md",
+                "file": "С++/0 Основы/1 Шаблоны/4 SFINAE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Нужно перенести.md"
+                "file": "С++/0 Основы/1 Шаблоны/4 SFINAE.md"
               }
             }
           }
@@ -134,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Нужно перенести.md",
+                "file": "С++/0 Основы/1 Шаблоны/4 SFINAE.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,15 +201,15 @@
   },
   "active": "7f1f4d2c66b3003f",
   "lastOpenFiles": [
+    "С++/0 Основы/1 Шаблоны/3 CTAD - class template argument deduction.md",
+    "Холсты/Подготовка.canvas",
+    "С++/0 Основы/1 Шаблоны/4 SFINAE.md",
     "С++/0 Основы/1 Шаблоны/0 Шаблоны.md",
+    "Нужно перенести.md",
+    "С++/0 Основы/1 Шаблоны/2 Fold expression, CRTR, Expression templates.md",
     "С++/0 Основы/1 Шаблоны/1 Dependent names,  Variadic templates, Type Traits.md",
     "С++/std/Наивные реализации/std optional.md",
-    "Холсты/Подготовка.canvas",
-    "С++/0 Основы/1 Шаблоны/3 CTAD - class template argument deduction.md",
-    "С++/0 Основы/1 Шаблоны/4 SFINAE.md",
     "С++/0 Основы/7 lvalue rvalue.md",
-    "С++/0 Основы/1 Шаблоны/2 Fold expression, CRTR, Expression templates.md",
-    "Нужно перенести.md",
     "С++/0 Основы/8 auto, decltype,  decltype(auto).md",
     "С++/Идиомы и правила/Expired values. Copy elision. Return value optimization..md",
     "Linux Windows/vscode/Настройка окружения.md",
