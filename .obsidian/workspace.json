@@ -6,7 +6,7 @@
       {
         "id": "24fbd5fef581bbe7",
         "type": "tabs",
-        "dimension": 34.21052631578947,
+        "dimension": 46.77835051546392,
         "children": [
           {
             "id": "27710cbadd0c40e9",
@@ -16,20 +16,20 @@
               "state": {
                 "file": "Холсты/Подготовка.canvas",
                 "viewState": {
-                  "x": 281.6567558745081,
-                  "y": 1290.4958048030799,
-                  "zoom": -1.1779900027985657
+                  "x": 702.9296133451622,
+                  "y": 1020.718335450543,
+                  "zoom": 0.2113508063877341
                 }
               }
             }
           },
           {
-            "id": "15f595ad5f654715",
+            "id": "06dd0df12e03c3ec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "С++/0 Основы/1 Шаблоны/3 CTAD - class template argument deduction.md",
+                "file": "С++/0 Основы/5 lambda.md",
                 "mode": "source",
                 "source": false
               }
@@ -41,7 +41,7 @@
       {
         "id": "5231ba6fc5edbc6c",
         "type": "tabs",
-        "dimension": 65.78947368421053,
+        "dimension": 53.22164948453608,
         "children": [
           {
             "id": "7f1f4d2c66b3003f",
@@ -54,8 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5536f2f05b9aac40",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "С++/0 Основы/2 Лямбды/1 Лямбды.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -74,7 +87,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "conjunction",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +119,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 391.5
+    "width": 252.5
   },
   "right": {
     "id": "3c24f02499b103ac",
@@ -123,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "С++/0 Основы/1 Шаблоны/4 SFINAE.md",
+                "file": "С++/0 Основы/2 Лямбды/1 Лямбды.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "С++/0 Основы/1 Шаблоны/4 SFINAE.md"
+                "file": "С++/0 Основы/2 Лямбды/1 Лямбды.md"
               }
             }
           }
@@ -152,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "С++/0 Основы/1 Шаблоны/4 SFINAE.md",
+                "file": "С++/0 Основы/2 Лямбды/1 Лямбды.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,20 +203,27 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Меню быстрого перехода": false,
-      "graph:Граф": false,
-      "canvas:Создать новый холст": false,
-      "daily-notes:Сегодняшняя заметка": false,
-      "templates:Вставить шаблон": false,
-      "command-palette:Открыть палитру команд": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7f1f4d2c66b3003f",
+  "active": "5536f2f05b9aac40",
   "lastOpenFiles": [
-    "С++/0 Основы/1 Шаблоны/3 CTAD - class template argument deduction.md",
-    "Холсты/Подготовка.canvas",
+    "С++/0 Основы/5 lambda.md",
+    "С++/0 Основы/0 Переменные, Операторы, Квалификаторы.md",
+    "С++/0 Основы/2 Лямбды/1 Лямбды.md",
+    "С++/0 Основы/00 Введение.md",
+    "С++/0 Основы/2 Лямбды",
     "С++/0 Основы/1 Шаблоны/4 SFINAE.md",
+    "Холсты/Подготовка.canvas",
+    "Подготовка.md",
+    "С++/0 Основы/1 Шаблоны/5 Concepts.md",
+    "С++/0 Основы/1 Шаблоны/3 CTAD - class template argument deduction.md",
     "С++/0 Основы/1 Шаблоны/0 Шаблоны.md",
     "Нужно перенести.md",
     "С++/0 Основы/1 Шаблоны/2 Fold expression, CRTR, Expression templates.md",
@@ -213,8 +233,6 @@
     "С++/0 Основы/8 auto, decltype,  decltype(auto).md",
     "С++/Идиомы и правила/Expired values. Copy elision. Return value optimization..md",
     "Linux Windows/vscode/Настройка окружения.md",
-    "Подготовка.md",
-    "С++/0 Основы/0 Переменные, Операторы, Квалификаторы.md",
     "разные ссылки.md",
     "MFTI_lectures.md",
     "С++/std/Контейнеры/0 Последовательные/vector.md",
@@ -224,9 +242,6 @@
     "Linux Windows/gcc build && clang-format, clang-tidy.md",
     "Linux Windows/zshrc_setting.md",
     "С++/Идиомы и правила/00 Другое.md",
-    "С++/0 Основы/0 Классы/1 Методы , Перегрузка операторов.md",
-    "С++/0 Основы/0 Классы/0 Классы и Структуры.md",
-    "С++/0 Основы/1 Указатели, Ссылки.md",
     "00 Исходники/value category.png",
     "Linux Windows/Профайлер бедного человека",
     "Linux Windows/vscode",
@@ -250,7 +265,6 @@
     "Холсты/cyberforum.canvas",
     "00 Исходники/containers/deque.png",
     "00 Исходники/containers/deque.svg",
-    "00 Исходники/Без названия",
     "Холсты/Полезные онлайн отладчики.canvas",
     "Холсты/C++/vtable.canvas",
     "work/glob_cfg 1.canvas",

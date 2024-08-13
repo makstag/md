@@ -213,3 +213,24 @@ int main() {
 	static_assert(is_base_of_v<Base, Derived_private>);
 }
 ```
+
+Наивная реализация `std::common_type` (В C++11 такая реализация и была):
+```C++
+template <typename... Types>
+struct common_type;
+
+template <typename T>
+struct common_type<T>: std::type_identity<T> {};
+
+template <typename T, typename U>
+struct common_type<T, U>
+	: std::type_identity<
+		decltype(true ? std::declval<T>() : std::declval<U>())
+    > {};
+
+template <typename T, typename.. Types>
+struct common_type<T, Types...>
+	: common_type<T, common_type<Types...>::type> {};
+```
+
+Лекция 50  33:00
