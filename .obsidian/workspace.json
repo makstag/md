@@ -19,6 +19,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0f965961be059ad1",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Холсты/Подготовка.canvas",
+                "viewState": {
+                  "x": 819.070102774471,
+                  "y": 855.3425595339555,
+                  "zoom": -0.013613912529286787
+                }
+              }
+            }
           }
         ]
       },
@@ -186,10 +201,10 @@
   "active": "7f1f4d2c66b3003f",
   "lastOpenFiles": [
     "С++/0 Основы/5 lambda.md",
-    "С++/0 Основы/1 Шаблоны/2 Fold expression, CRTR, Expression templates.md",
-    "С++/0 Основы/2 Лямбды/1 Лямбды.md",
-    "С++/0 Основы/1 Шаблоны/4 SFINAE.md",
     "Холсты/Подготовка.canvas",
+    "С++/0 Основы/2 Лямбды/1 Лямбды.md",
+    "С++/0 Основы/1 Шаблоны/2 Fold expression, CRTR, Expression templates.md",
+    "С++/0 Основы/1 Шаблоны/4 SFINAE.md",
     "Linux Windows/gcc build && clang-format, clang-tidy.md",
     "С++/0 Основы/2 Лямбды",
     "MFTI_lectures.md",
@@ -214,7 +229,6 @@
     "С++/std/Итераторы/1 iterators, const- reserse-iterators.md",
     "С++/std/move and forvard semantics.md",
     "Linux Windows/zshrc_setting.md",
-    "С++/Идиомы и правила/00 Другое.md",
     "00 Исходники/value category.png",
     "Linux Windows/Профайлер бедного человека",
     "Linux Windows/vscode",
