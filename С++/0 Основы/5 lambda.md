@@ -49,20 +49,6 @@ int main()
   }
   std::cout << std::endl;
 
-  // [&, y] mutable 1 1
-  // inside: 2 2
-  // 2 1
-  {
-    int x = 1, y = 1;
-    std::cout << "[&, y] mutable ";
-    std::cout << x << " " << y << std::endl;
-    auto foo = [&x, y]() mutable { ++x; ++y; std::cout << "inside: " <<
-                                             x << " " << y << std::endl;};
-    foo();
-    std::cout << x << " " << y << std::endl;
-  }
-  std::cout << std::endl;
-
   // [=] mutable 1 1
   // inside: 2 2
   // 1 1
