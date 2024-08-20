@@ -9,7 +9,7 @@
         "dimension": 43.914081145584724,
         "children": [
           {
-            "id": "27710cbadd0c40e9",
+            "id": "53cca957881e9dcc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,21 +21,19 @@
             }
           },
           {
-            "id": "0f965961be059ad1",
+            "id": "fe46fd04bac9498e",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Холсты/Подготовка.canvas",
-                "viewState": {
-                  "x": 819.070102774471,
-                  "y": 855.3425595339555,
-                  "zoom": -0.013613912529286787
-                }
+                "file": "С++/0 Основы/2 Лямбды/1 Лямбды.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "5231ba6fc5edbc6c",
@@ -43,12 +41,12 @@
         "dimension": 56.085918854415276,
         "children": [
           {
-            "id": "7f1f4d2c66b3003f",
+            "id": "68f1faa5fd34e90a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "С++/0 Основы/2 Лямбды/1 Лямбды.md",
+                "file": "С++/0 Основы/2 Лямбды/2 Лямбды.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "fold ex",
+                "query": "tuple",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -198,11 +196,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7f1f4d2c66b3003f",
+  "active": "fe46fd04bac9498e",
   "lastOpenFiles": [
+    "С++/0 Основы/2 Лямбды/2 Лямбды.md",
+    "С++/0 Основы/2 Лямбды/1 Лямбды.md",
     "С++/0 Основы/5 lambda.md",
     "Холсты/Подготовка.canvas",
-    "С++/0 Основы/2 Лямбды/1 Лямбды.md",
+    "Нужно перенести.md",
+    "С++/0 Основы/6 Атрибуты.md",
     "С++/0 Основы/1 Шаблоны/2 Fold expression, CRTR, Expression templates.md",
     "С++/0 Основы/1 Шаблоны/4 SFINAE.md",
     "Linux Windows/gcc build && clang-format, clang-tidy.md",
@@ -210,7 +211,6 @@
     "MFTI_lectures.md",
     "Холсты/Полезные онлайн отладчики.canvas",
     "yandex.md",
-    "Нужно перенести.md",
     "Подготовка.md",
     "разные ссылки.md",
     "Холсты/Полезные gitlab проекты.canvas",
@@ -227,8 +227,6 @@
     "С++/0 Основы/0 Переменные, Операторы, Квалификаторы.md",
     "С++/std/Контейнеры/0 Последовательные/vector.md",
     "С++/std/Итераторы/1 iterators, const- reserse-iterators.md",
-    "С++/std/move and forvard semantics.md",
-    "Linux Windows/zshrc_setting.md",
     "00 Исходники/value category.png",
     "Linux Windows/Профайлер бедного человека",
     "Linux Windows/vscode",
